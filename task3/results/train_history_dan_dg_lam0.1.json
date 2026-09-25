@@ -1,0 +1,301 @@
+[
+  {
+    "epoch": 0,
+    "mean_source_macro_f1": 0.8630764291459389,
+    "worst_source_macro_f1": 0.81438056322746,
+    "per_domain": {
+      "photo": {
+        "accuracy": 0.93993993993994,
+        "macro_f1": 0.9296213700573287
+      },
+      "art_painting": {
+        "accuracy": 0.8195121951219512,
+        "macro_f1": 0.81438056322746
+      },
+      "cartoon": {
+        "accuracy": 0.835820895522388,
+        "macro_f1": 0.845227354153028
+      }
+    },
+    "cls_loss": 0.47474888247302455,
+    "mmd_dg_term": 0.13080647987599384,
+    "lambda_dg": 0.1,
+    "total_loss": 0.48782953100963533
+  },
+  {
+    "epoch": 1,
+    "mean_source_macro_f1": 0.8109678465526527,
+    "worst_source_macro_f1": 0.7646279881434087,
+    "per_domain": {
+      "photo": {
+        "accuracy": 0.9039039039039038,
+        "macro_f1": 0.8843206976467244
+      },
+      "art_painting": {
+        "accuracy": 0.802439024390244,
+        "macro_f1": 0.783954853867825
+      },
+      "cartoon": {
+        "accuracy": 0.7931769722814499,
+        "macro_f1": 0.7646279881434087
+      }
+    },
+    "cls_loss": 0.2237656217518175,
+    "mmd_dg_term": 0.07517683658098133,
+    "lambda_dg": 0.1,
+    "total_loss": 0.23128330644068873
+  },
+  {
+    "epoch": 2,
+    "mean_source_macro_f1": 0.9373996966794289,
+    "worst_source_macro_f1": 0.9149261295276643,
+    "per_domain": {
+      "photo": {
+        "accuracy": 0.972972972972973,
+        "macro_f1": 0.967739715207469
+      },
+      "art_painting": {
+        "accuracy": 0.9292682926829269,
+        "macro_f1": 0.9295332453031532
+      },
+      "cartoon": {
+        "accuracy": 0.9104477611940298,
+        "macro_f1": 0.9149261295276643
+      }
+    },
+    "cls_loss": 0.1642918595795432,
+    "mmd_dg_term": 0.05872897860349323,
+    "lambda_dg": 0.1,
+    "total_loss": 0.17016475718731108
+  },
+  {
+    "epoch": 3,
+    "mean_source_macro_f1": 0.944990452164988,
+    "worst_source_macro_f1": 0.9300763869087222,
+    "per_domain": {
+      "photo": {
+        "accuracy": 0.975975975975976,
+        "macro_f1": 0.971952362999395
+      },
+      "art_painting": {
+        "accuracy": 0.9341463414634147,
+        "macro_f1": 0.9329426065868469
+      },
+      "cartoon": {
+        "accuracy": 0.9232409381663113,
+        "macro_f1": 0.9300763869087222
+      }
+    },
+    "cls_loss": 0.10191170873446788,
+    "mmd_dg_term": 0.04816146515798357,
+    "lambda_dg": 0.1,
+    "total_loss": 0.10672785518999395
+  },
+  {
+    "epoch": 4,
+    "mean_source_macro_f1": 0.9420007686743345,
+    "worst_source_macro_f1": 0.9206866320884945,
+    "per_domain": {
+      "photo": {
+        "accuracy": 0.9819819819819819,
+        "macro_f1": 0.9781044150127567
+      },
+      "art_painting": {
+        "accuracy": 0.9219512195121952,
+        "macro_f1": 0.9206866320884945
+      },
+      "cartoon": {
+        "accuracy": 0.9189765458422174,
+        "macro_f1": 0.927211258921752
+      }
+    },
+    "cls_loss": 0.08195155393058617,
+    "mmd_dg_term": 0.045741921656294406,
+    "lambda_dg": 0.1,
+    "total_loss": 0.08652574635055076
+  },
+  {
+    "epoch": 5,
+    "mean_source_macro_f1": 0.9333416831644471,
+    "worst_source_macro_f1": 0.8914818551955973,
+    "per_domain": {
+      "photo": {
+        "accuracy": 0.9669669669669669,
+        "macro_f1": 0.9600245156102166
+      },
+      "art_painting": {
+        "accuracy": 0.8902439024390244,
+        "macro_f1": 0.8914818551955973
+      },
+      "cartoon": {
+        "accuracy": 0.9424307036247335,
+        "macro_f1": 0.9485186786875272
+      }
+    },
+    "cls_loss": 0.07042134625804372,
+    "mmd_dg_term": 0.032190147956483,
+    "lambda_dg": 0.1,
+    "total_loss": 0.07364036109642738
+  },
+  {
+    "epoch": 6,
+    "mean_source_macro_f1": 0.9319983886805145,
+    "worst_source_macro_f1": 0.9027357341716764,
+    "per_domain": {
+      "photo": {
+        "accuracy": 0.9669669669669669,
+        "macro_f1": 0.9620651535975057
+      },
+      "art_painting": {
+        "accuracy": 0.9073170731707317,
+        "macro_f1": 0.9027357341716764
+      },
+      "cartoon": {
+        "accuracy": 0.9232409381663113,
+        "macro_f1": 0.9311942782723618
+      }
+    },
+    "cls_loss": 0.08046048517504599,
+    "mmd_dg_term": 0.05678156045569967,
+    "lambda_dg": 0.1,
+    "total_loss": 0.08613864113238409
+  },
+  {
+    "epoch": 7,
+    "mean_source_macro_f1": 0.9522068885908835,
+    "worst_source_macro_f1": 0.9302262665654409,
+    "per_domain": {
+      "photo": {
+        "accuracy": 0.984984984984985,
+        "macro_f1": 0.9819794605552075
+      },
+      "art_painting": {
+        "accuracy": 0.9292682926829269,
+        "macro_f1": 0.9302262665654409
+      },
+      "cartoon": {
+        "accuracy": 0.9381663113006397,
+        "macro_f1": 0.9444149386520024
+      }
+    },
+    "cls_loss": 0.05612853443664759,
+    "mmd_dg_term": 0.04369803327115842,
+    "lambda_dg": 0.1,
+    "total_loss": 0.06049833800166081
+  },
+  {
+    "epoch": 8,
+    "mean_source_macro_f1": 0.9317673647080583,
+    "worst_source_macro_f1": 0.8855374714205564,
+    "per_domain": {
+      "photo": {
+        "accuracy": 0.9669669669669669,
+        "macro_f1": 0.9610874768427584
+      },
+      "art_painting": {
+        "accuracy": 0.8926829268292683,
+        "macro_f1": 0.8855374714205564
+      },
+      "cartoon": {
+        "accuracy": 0.9424307036247335,
+        "macro_f1": 0.9486771458608602
+      }
+    },
+    "cls_loss": 0.07077687727344624,
+    "mmd_dg_term": 0.042717498584173355,
+    "lambda_dg": 0.1,
+    "total_loss": 0.07504862677116886
+  },
+  {
+    "epoch": 9,
+    "mean_source_macro_f1": 0.9196804049791812,
+    "worst_source_macro_f1": 0.8746112806888656,
+    "per_domain": {
+      "photo": {
+        "accuracy": 0.960960960960961,
+        "macro_f1": 0.9558014512888965
+      },
+      "art_painting": {
+        "accuracy": 0.875609756097561,
+        "macro_f1": 0.8746112806888656
+      },
+      "cartoon": {
+        "accuracy": 0.9189765458422174,
+        "macro_f1": 0.9286284829597814
+      }
+    },
+    "cls_loss": 0.06765404695251451,
+    "mmd_dg_term": 0.04520629330982358,
+    "lambda_dg": 0.1,
+    "total_loss": 0.07217467591389377
+  },
+  {
+    "epoch": 10,
+    "mean_source_macro_f1": 0.9253811627768941,
+    "worst_source_macro_f1": 0.9006320389998014,
+    "per_domain": {
+      "photo": {
+        "accuracy": 0.954954954954955,
+        "macro_f1": 0.9458579724253869
+      },
+      "art_painting": {
+        "accuracy": 0.9024390243902439,
+        "macro_f1": 0.9006320389998014
+      },
+      "cartoon": {
+        "accuracy": 0.9211087420042644,
+        "macro_f1": 0.9296534769054939
+      }
+    },
+    "cls_loss": 0.04540869450451065,
+    "mmd_dg_term": 0.03400695605240697,
+    "lambda_dg": 0.1,
+    "total_loss": 0.048809390283253394
+  },
+  {
+    "epoch": 11,
+    "mean_source_macro_f1": 0.9037568899893245,
+    "worst_source_macro_f1": 0.8703394457976434,
+    "per_domain": {
+      "photo": {
+        "accuracy": 0.9369369369369369,
+        "macro_f1": 0.920987240439932
+      },
+      "art_painting": {
+        "accuracy": 0.8731707317073171,
+        "macro_f1": 0.8703394457976434
+      },
+      "cartoon": {
+        "accuracy": 0.9147121535181236,
+        "macro_f1": 0.9199439837303982
+      }
+    },
+    "cls_loss": 0.0488252576142103,
+    "mmd_dg_term": 0.044834534848073065,
+    "lambda_dg": 0.1,
+    "total_loss": 0.05330871131085058
+  },
+  {
+    "epoch": 12,
+    "mean_source_macro_f1": 0.9233973608695031,
+    "worst_source_macro_f1": 0.8939993122980472,
+    "per_domain": {
+      "photo": {
+        "accuracy": 0.963963963963964,
+        "macro_f1": 0.9589050985564685
+      },
+      "art_painting": {
+        "accuracy": 0.9195121951219513,
+        "macro_f1": 0.9172876717539935
+      },
+      "cartoon": {
+        "accuracy": 0.8827292110874201,
+        "macro_f1": 0.8939993122980472
+      }
+    },
+    "cls_loss": 0.05632494413293898,
+    "mmd_dg_term": 0.03995628885281298,
+    "lambda_dg": 0.1,
+    "total_loss": 0.060320573237910666
+  }
+]

@@ -1,0 +1,96 @@
+# Task 4 -- Open-Set Recognition on CIFAR-10 (known) / CIFAR-100 (unknown, eval-only)
+# Single source of truth for every seed, hyperparameter, and design choice.
+# Design choice (documented in task4/README.md): one config.yaml with per-method
+# sections, same pattern as task2/ and task3/, rather than the suggested separate
+# vanilla.yaml/gcsc.yaml/proser.yaml/rpl.yaml.
+
+seed: 6304
+
+dataset:
+  name: cifar10
+  root: ./data/raw   # overwritten by the Kaggle notebook's auto-discovery cell if needed;
+                      # torchvision can also just download CIFAR-10/100 directly here
+  num_classes: 10
+  image_size: 32
+
+split:
+  val_fraction: 0.1
+  seed: 6304
+  save_path: ./results/cifar10_seed6304_split.json
+
+# Fixed, evaluation-only CIFAR-100 fine-label groups. Never used for training,
+# checkpoint selection, score design, or threshold selection -- only loaded by
+# evaluate_osr.py, after every other Task 4 decision has been frozen. 800 images
+# per group (8 classes x 100 CIFAR-100 test images/class) -- the full CIFAR-100
+# test-set images of exactly these classes are used, nothing more, nothing less.
+unknowns:
+  near_classes: [bus, pickup_truck, motorcycle, tractor, wolf, fox, leopard, camel]
+  far_classes: [bottle, bowl, chair, clock, keyboard, mushroom, sunflower, wardrobe]
+  images_per_group: 800
+
+backbone:
+  name: resnet18_cifar
+  # ImageNet-style 7x7 stride-2 stem + maxpool replaced by a 3x3 stride-1 conv
+  # and no initial maxpool, so the network operates natively on 32x32 CIFAR
+  # images (assignment's explicit instruction) -- random init, NOT ImageNet-pretrained,
+  # unlike Task 2/3's ResNet-18.
+  feature_dim: 512
+
+training:
+  # Shared recipe for Vanilla and GCSC (GCSC only adds RandAugment -- see gcsc below).
+  optimizer: sgd
+  lr: 0.1
+  momentum: 0.9
+  weight_decay: 5.0e-4
+  schedule: cosine
+  batch_size: 128
+  epochs: 100
+  seed: 6304
+  checkpoint_selection_metric: cifar10_val_accuracy
+
+augmentation:
+  random_crop_padding: 4
+  random_crop_size: 32
+  random_hflip: true
+
+gcsc:
+  # Identical to vanilla's recipe, single change: RandAugment inserted after
+  # crop+flip and before tensor conversion/normalization.
+  randaugment_num_ops: 2
+  randaugment_magnitude: 9
+
+proser:
+  init_from_vanilla_checkpoint: true
+  num_dummy_classifiers: 5
+  epochs: 50
+  lr: 1.0e-3
+  momentum: 0.9
+  weight_decay: 5.0e-4
+  schedule: cosine
+  batch_size: 128
+  seed: 6304
+  # Each mini-batch is split in half: first half -> classifier-placeholder loss,
+  # second half -> manifold-mixup data-placeholder loss (assignment's explicit split).
+  beta_classifier_placeholder: 1.0
+  gamma_data_placeholder: 0.1
+  mixup_beta_alpha: 2.0
+  mixup_beta_beta: 2.0
+  # "perform manifold mixup after layer2 and before layer3"
+  mixup_split_after: layer2
+
+mahalanobis:
+  # Estimated from UNAUGMENTED CIFAR-10 training features (vanilla model only).
+  diag_eps: 1.0e-6
+
+evaluation:
+  # Accept x when u(x) <= 95th-percentile-of-CIFAR-10-val-unknownness threshold
+  # (known-only calibration, aiming for ~95% known acceptance == FPR@95TPR framing).
+  threshold_percentile: 95
+  save_path: ./results
+  cache_path: ./cache
+
+rpl:
+  # Optional extension (Chen et al. 2020). Disabled by default -- required
+  # evidence does not depend on it; enable and run methods/rpl.py separately
+  # if pursuing the optional extension.
+  enabled: false

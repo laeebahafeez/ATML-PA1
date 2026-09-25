@@ -1,0 +1,92 @@
+# Task 2 - Unsupervised Domain Adaptation (PACS)
+# Single source of truth for every seed, hyperparameter, and design choice.
+
+seed: 6304
+
+dataset:
+  name: pacs
+  # Where to look for the PACS folder tree. The loader (shared/pacs.py)
+  # searches recursively under this root (and a few sensible fallbacks)
+  # for four subfolders named photo / art_painting / cartoon / sketch
+  # (case- and separator-insensitive), so it does not matter whether PACS
+  # was attached as a public Kaggle dataset or uploaded manually.
+  root: ./data/raw
+  image_size: 224
+  resize_size: 256
+  num_classes: 7
+  source_domains: [photo, art_painting, cartoon]
+  target_domain: sketch
+
+split:
+  # stratified 80/20 split PER SOURCE DOMAIN, shared verbatim between
+  # Task 2 and Task 3 -- see shared/pacs_protocol.py
+  val_fraction: 0.2
+  seed: 6304
+  save_path: ./results/pacs_sketch_seed6304_split.json
+
+backbone:
+  name: resnet18
+  weights: IMAGENET1K_V1
+  feature_dim: 512
+  # Freeze BatchNorm running mean/var at their pretrained ImageNet values
+  # for every method in Task 2 and Task 3; gamma/beta remain trainable.
+  freeze_bn_running_stats: true
+
+training:
+  optimizer: adamw
+  lr: 1.0e-4
+  weight_decay: 1.0e-4
+  max_epochs: 30
+  early_stop_patience: 5
+  seed: 6304
+  # domain-balanced source batch: 8 examples from each of the 3 source domains
+  source_per_domain_batch: 8
+  # adaptation methods (DAN/DANN/CDAN) additionally draw this many
+  # (unlabeled) target examples per batch, giving equal total source/target
+  # batch sizes (24 source + 24 target)
+  target_batch_size: 24
+  checkpoint_selection_metric: mean_source_macro_f1
+
+augmentation:
+  train_resize: 256
+  train_crop: 224
+  train_hflip: true
+  eval_resize: 256
+  eval_crop: 224
+
+mmd:
+  # shared kernel construction used by DAN (Task 2) and DAN-DG (Task 3)
+  kernel: rbf_mixture
+  bandwidth_multipliers: [0.5, 1.0, 2.0]   # x median pairwise squared distance
+  lambda_mmd_main: 1.0
+
+dann:
+  discriminator_hidden: 256
+  discriminator_dropout: 0.5
+  grad_reversal_schedule: sigmoid_10   # alpha(p) = 2/(1+exp(-10p)) - 1
+  max_grad_reversal_strength_main: 1.0
+  loss_weight: 1.0
+
+cdan:
+  # same discriminator width/activation/dropout/schedule/loss-weight as DANN,
+  # operating on g(x) = vec(f (x) p) instead of f(x) alone
+  discriminator_hidden: 256
+  discriminator_dropout: 0.5
+  grad_reversal_schedule: sigmoid_10
+  loss_weight: 1.0
+  entropy_conditioning: false
+  detach_features: false
+  detach_probs: false
+
+domain_separability:
+  seed: 6304
+  test_fraction: 0.3
+  logistic_regression_C: 1.0
+
+controlled_study:
+  # Design choice (documented in task2/README.md): sweep DAN's lambda_MMD.
+  method: dan
+  lambda_mmd_values: [0.1, 1.0, 10.0]
+
+evaluation:
+  save_path: ./results

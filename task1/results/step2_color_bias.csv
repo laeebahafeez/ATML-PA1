@@ -1,0 +1,9 @@
+model,transform,clean_accuracy,transformed_accuracy,accuracy_change,prediction_consistency
+resnet50_head,grayscale,0.908,0.856,-0.052000000000000046,0.9
+resnet50_head,hue_rotation,0.908,0.806,-0.10199999999999998,0.826
+vit_b16_head,grayscale,0.918,0.86,-0.05800000000000005,0.884
+vit_b16_head,hue_rotation,0.918,0.844,-0.07400000000000007,0.856
+clip_vitb32_head,grayscale,0.788,0.69,-0.09800000000000009,0.756
+clip_vitb32_head,hue_rotation,0.788,0.62,-0.16800000000000004,0.694
+clip_zeroshot,grayscale,0.756,0.69,-0.06600000000000006,0.784
+clip_zeroshot,hue_rotation,0.756,0.628,-0.128,0.716

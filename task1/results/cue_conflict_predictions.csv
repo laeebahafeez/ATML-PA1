@@ -1,0 +1,241 @@
+pair_id,direction,image_path,content_class_name,style_class_name,resnet50_head_pred,resnet50_head_label,vit_b16_head_pred,vit_b16_head_label,clip_vitb32_head_pred,clip_vitb32_head_label,clip_zeroshot_pred,clip_zeroshot_label
+0,0,data/cue_conflicts/pair0_dir0_accepted_1.png,Russian Blue,Sphynx,Sphynx,texture,Persian,other,Sphynx,texture,Bombay,other
+0,0,data/cue_conflicts/pair0_dir0_accepted_2.png,Russian Blue,Sphynx,Sphynx,texture,Shiba Inu,other,British Shorthair,other,Bombay,other
+0,0,data/cue_conflicts/pair0_dir0_accepted_3.png,Russian Blue,Sphynx,Sphynx,texture,Persian,other,Abyssinian,other,Bombay,other
+0,0,data/cue_conflicts/pair0_dir0_accepted_4.png,Russian Blue,Sphynx,Bombay,other,Abyssinian,other,British Shorthair,other,Birman,other
+0,0,data/cue_conflicts/pair0_dir0_accepted_5.png,Russian Blue,Sphynx,Sphynx,texture,Pomeranian,other,Sphynx,texture,Persian,other
+0,0,data/cue_conflicts/pair0_dir0_accepted_6.png,Russian Blue,Sphynx,Sphynx,texture,Ragdoll,other,Sphynx,texture,Sphynx,texture
+0,0,data/cue_conflicts/pair0_dir0_accepted_7.png,Russian Blue,Sphynx,Sphynx,texture,Ragdoll,other,Sphynx,texture,Sphynx,texture
+0,0,data/cue_conflicts/pair0_dir0_accepted_8.png,Russian Blue,Sphynx,Sphynx,texture,Persian,other,British Shorthair,other,Persian,other
+0,0,data/cue_conflicts/pair0_dir0_accepted_9.png,Russian Blue,Sphynx,Sphynx,texture,Persian,other,British Shorthair,other,Bombay,other
+0,0,data/cue_conflicts/pair0_dir0_accepted_10.png,Russian Blue,Sphynx,Sphynx,texture,Birman,other,Sphynx,texture,Bombay,other
+0,0,data/cue_conflicts/pair0_dir0_accepted_11.png,Russian Blue,Sphynx,Sphynx,texture,Bengal,other,British Shorthair,other,Birman,other
+0,0,data/cue_conflicts/pair0_dir0_accepted_12.png,Russian Blue,Sphynx,Sphynx,texture,Bengal,other,British Shorthair,other,Ragdoll,other
+0,0,data/cue_conflicts/pair0_dir0_accepted_13.png,Russian Blue,Sphynx,Sphynx,texture,Persian,other,Abyssinian,other,Persian,other
+0,0,data/cue_conflicts/pair0_dir0_accepted_14.png,Russian Blue,Sphynx,Abyssinian,other,Persian,other,Sphynx,texture,Birman,other
+0,0,data/cue_conflicts/pair0_dir0_accepted_15.png,Russian Blue,Sphynx,Sphynx,texture,Persian,other,Sphynx,texture,Persian,other
+0,0,data/cue_conflicts/pair0_dir0_accepted_16.png,Russian Blue,Sphynx,Sphynx,texture,Persian,other,British Shorthair,other,Bombay,other
+0,0,data/cue_conflicts/pair0_dir0_accepted_17.png,Russian Blue,Sphynx,Sphynx,texture,Persian,other,British Shorthair,other,Bombay,other
+0,0,data/cue_conflicts/pair0_dir0_accepted_18.png,Russian Blue,Sphynx,Sphynx,texture,Persian,other,British Shorthair,other,Bombay,other
+0,0,data/cue_conflicts/pair0_dir0_accepted_19.png,Russian Blue,Sphynx,Sphynx,texture,Ragdoll,other,British Shorthair,other,Persian,other
+0,0,data/cue_conflicts/pair0_dir0_accepted_20.png,Russian Blue,Sphynx,Sphynx,texture,Persian,other,Sphynx,texture,Bombay,other
+0,0,data/cue_conflicts/pair0_dir0_accepted_21.png,Russian Blue,Sphynx,Sphynx,texture,Ragdoll,other,British Shorthair,other,Ragdoll,other
+0,0,data/cue_conflicts/pair0_dir0_accepted_23.png,Russian Blue,Sphynx,Abyssinian,other,Pomeranian,other,British Shorthair,other,Bombay,other
+0,0,data/cue_conflicts/pair0_dir0_accepted_24.png,Russian Blue,Sphynx,Sphynx,texture,Persian,other,British Shorthair,other,Ragdoll,other
+0,0,data/cue_conflicts/pair0_dir0_accepted_25.png,Russian Blue,Sphynx,Sphynx,texture,Sphynx,texture,British Shorthair,other,Sphynx,texture
+0,1,data/cue_conflicts/pair0_dir1_accepted_1.png,Sphynx,Russian Blue,Abyssinian,other,Sphynx,shape,British Shorthair,other,Chihuahua,other
+0,1,data/cue_conflicts/pair0_dir1_accepted_2.png,Sphynx,Russian Blue,Yorkshire Terrier,other,Persian,other,British Shorthair,other,Bombay,other
+0,1,data/cue_conflicts/pair0_dir1_accepted_3.png,Sphynx,Russian Blue,Sphynx,shape,Bengal,other,Sphynx,shape,Bombay,other
+0,1,data/cue_conflicts/pair0_dir1_accepted_4.png,Sphynx,Russian Blue,Sphynx,shape,Persian,other,Boxer,other,Persian,other
+0,1,data/cue_conflicts/pair0_dir1_accepted_5.png,Sphynx,Russian Blue,Yorkshire Terrier,other,Ragdoll,other,Sphynx,shape,Bombay,other
+0,1,data/cue_conflicts/pair0_dir1_accepted_6.png,Sphynx,Russian Blue,Bombay,other,Birman,other,Boxer,other,Chihuahua,other
+0,1,data/cue_conflicts/pair0_dir1_accepted_7.png,Sphynx,Russian Blue,Sphynx,shape,Persian,other,Boxer,other,Bombay,other
+0,1,data/cue_conflicts/pair0_dir1_accepted_8.png,Sphynx,Russian Blue,Sphynx,shape,Persian,other,British Shorthair,other,Bombay,other
+0,1,data/cue_conflicts/pair0_dir1_accepted_9.png,Sphynx,Russian Blue,Sphynx,shape,Persian,other,British Shorthair,other,Ragdoll,other
+0,1,data/cue_conflicts/pair0_dir1_accepted_10.png,Sphynx,Russian Blue,Yorkshire Terrier,other,Persian,other,British Shorthair,other,Bombay,other
+0,1,data/cue_conflicts/pair0_dir1_accepted_11.png,Sphynx,Russian Blue,Bombay,other,Birman,other,British Shorthair,other,Ragdoll,other
+0,1,data/cue_conflicts/pair0_dir1_accepted_12.png,Sphynx,Russian Blue,Sphynx,shape,Persian,other,British Shorthair,other,Bombay,other
+0,1,data/cue_conflicts/pair0_dir1_accepted_13.png,Sphynx,Russian Blue,Sphynx,shape,Ragdoll,other,British Shorthair,other,Bombay,other
+0,1,data/cue_conflicts/pair0_dir1_accepted_14.png,Sphynx,Russian Blue,Sphynx,shape,Persian,other,British Shorthair,other,Bombay,other
+0,1,data/cue_conflicts/pair0_dir1_accepted_15.png,Sphynx,Russian Blue,Sphynx,shape,Persian,other,British Shorthair,other,Bombay,other
+0,1,data/cue_conflicts/pair0_dir1_accepted_16.png,Sphynx,Russian Blue,Sphynx,shape,Persian,other,Sphynx,shape,Sphynx,shape
+0,1,data/cue_conflicts/pair0_dir1_accepted_17.png,Sphynx,Russian Blue,Sphynx,shape,Persian,other,Boxer,other,Bombay,other
+0,1,data/cue_conflicts/pair0_dir1_accepted_18.png,Sphynx,Russian Blue,Sphynx,shape,Persian,other,British Shorthair,other,Persian,other
+0,1,data/cue_conflicts/pair0_dir1_accepted_19.png,Sphynx,Russian Blue,Sphynx,shape,Persian,other,British Shorthair,other,Bombay,other
+0,1,data/cue_conflicts/pair0_dir1_accepted_20.png,Sphynx,Russian Blue,Sphynx,shape,Ragdoll,other,British Shorthair,other,Bombay,other
+0,1,data/cue_conflicts/pair0_dir1_accepted_21.png,Sphynx,Russian Blue,Bombay,other,Persian,other,Boxer,other,Bombay,other
+0,1,data/cue_conflicts/pair0_dir1_accepted_22.png,Sphynx,Russian Blue,Sphynx,shape,Persian,other,British Shorthair,other,Chihuahua,other
+0,1,data/cue_conflicts/pair0_dir1_accepted_23.png,Sphynx,Russian Blue,Sphynx,shape,Ragdoll,other,Boxer,other,Bombay,other
+0,1,data/cue_conflicts/pair0_dir1_accepted_24.png,Sphynx,Russian Blue,Sphynx,shape,Persian,other,Sphynx,shape,Bombay,other
+1,0,data/cue_conflicts/pair1_dir0_accepted_1.png,Beagle,Staffordshire Bull Terrier,Yorkshire Terrier,other,Persian,other,Sphynx,other,Bombay,other
+1,0,data/cue_conflicts/pair1_dir0_accepted_2.png,Beagle,Staffordshire Bull Terrier,Sphynx,other,Ragdoll,other,Sphynx,other,Bombay,other
+1,0,data/cue_conflicts/pair1_dir0_accepted_3.png,Beagle,Staffordshire Bull Terrier,Sphynx,other,Shiba Inu,other,Sphynx,other,Saint Bernard,other
+1,0,data/cue_conflicts/pair1_dir0_accepted_4.png,Beagle,Staffordshire Bull Terrier,Yorkshire Terrier,other,Persian,other,Sphynx,other,Bombay,other
+1,0,data/cue_conflicts/pair1_dir0_accepted_5.png,Beagle,Staffordshire Bull Terrier,Sphynx,other,Ragdoll,other,British Shorthair,other,Bombay,other
+1,0,data/cue_conflicts/pair1_dir0_accepted_6.png,Beagle,Staffordshire Bull Terrier,Sphynx,other,Persian,other,British Shorthair,other,Bombay,other
+1,0,data/cue_conflicts/pair1_dir0_accepted_7.png,Beagle,Staffordshire Bull Terrier,Sphynx,other,Ragdoll,other,British Shorthair,other,Sphynx,other
+1,0,data/cue_conflicts/pair1_dir0_accepted_8.png,Beagle,Staffordshire Bull Terrier,Sphynx,other,Persian,other,Boxer,other,Persian,other
+1,0,data/cue_conflicts/pair1_dir0_accepted_9.png,Beagle,Staffordshire Bull Terrier,Sphynx,other,Saint Bernard,other,Sphynx,other,Ragdoll,other
+1,0,data/cue_conflicts/pair1_dir0_accepted_10.png,Beagle,Staffordshire Bull Terrier,Sphynx,other,Persian,other,Sphynx,other,Bombay,other
+1,0,data/cue_conflicts/pair1_dir0_accepted_11.png,Beagle,Staffordshire Bull Terrier,Sphynx,other,Persian,other,British Shorthair,other,Sphynx,other
+1,0,data/cue_conflicts/pair1_dir0_accepted_12.png,Beagle,Staffordshire Bull Terrier,Yorkshire Terrier,other,Bengal,other,British Shorthair,other,Ragdoll,other
+1,0,data/cue_conflicts/pair1_dir0_accepted_13.png,Beagle,Staffordshire Bull Terrier,Bombay,other,Bengal,other,Sphynx,other,Ragdoll,other
+1,0,data/cue_conflicts/pair1_dir0_accepted_15.png,Beagle,Staffordshire Bull Terrier,Sphynx,other,Persian,other,Boxer,other,Bombay,other
+1,0,data/cue_conflicts/pair1_dir0_accepted_16.png,Beagle,Staffordshire Bull Terrier,Sphynx,other,Shiba Inu,other,British Shorthair,other,Ragdoll,other
+1,0,data/cue_conflicts/pair1_dir0_accepted_17.png,Beagle,Staffordshire Bull Terrier,Sphynx,other,Bengal,other,Sphynx,other,Sphynx,other
+1,0,data/cue_conflicts/pair1_dir0_accepted_18.png,Beagle,Staffordshire Bull Terrier,Sphynx,other,Bengal,other,Sphynx,other,Sphynx,other
+1,0,data/cue_conflicts/pair1_dir0_accepted_19.png,Beagle,Staffordshire Bull Terrier,Sphynx,other,Bengal,other,Sphynx,other,Bombay,other
+1,0,data/cue_conflicts/pair1_dir0_accepted_21.png,Beagle,Staffordshire Bull Terrier,Maine Coon,other,Bengal,other,Persian,other,Bombay,other
+1,0,data/cue_conflicts/pair1_dir0_accepted_22.png,Beagle,Staffordshire Bull Terrier,Sphynx,other,Persian,other,Sphynx,other,Bombay,other
+1,0,data/cue_conflicts/pair1_dir0_accepted_23.png,Beagle,Staffordshire Bull Terrier,Sphynx,other,Persian,other,British Shorthair,other,Ragdoll,other
+1,0,data/cue_conflicts/pair1_dir0_accepted_24.png,Beagle,Staffordshire Bull Terrier,Abyssinian,other,Persian,other,Sphynx,other,Sphynx,other
+1,0,data/cue_conflicts/pair1_dir0_accepted_25.png,Beagle,Staffordshire Bull Terrier,Yorkshire Terrier,other,Birman,other,Bombay,other,Persian,other
+1,0,data/cue_conflicts/pair1_dir0_accepted_26.png,Beagle,Staffordshire Bull Terrier,Sphynx,other,Bengal,other,Sphynx,other,Scottish Terrier,other
+1,1,data/cue_conflicts/pair1_dir1_accepted_1.png,Staffordshire Bull Terrier,Beagle,Sphynx,other,Persian,other,Sphynx,other,Bombay,other
+1,1,data/cue_conflicts/pair1_dir1_accepted_2.png,Staffordshire Bull Terrier,Beagle,Sphynx,other,Persian,other,British Shorthair,other,Bombay,other
+1,1,data/cue_conflicts/pair1_dir1_accepted_3.png,Staffordshire Bull Terrier,Beagle,Sphynx,other,Persian,other,British Shorthair,other,Persian,other
+1,1,data/cue_conflicts/pair1_dir1_accepted_4.png,Staffordshire Bull Terrier,Beagle,Yorkshire Terrier,other,Persian,other,British Shorthair,other,Bombay,other
+1,1,data/cue_conflicts/pair1_dir1_accepted_5.png,Staffordshire Bull Terrier,Beagle,Sphynx,other,Sphynx,other,Abyssinian,other,Persian,other
+1,1,data/cue_conflicts/pair1_dir1_accepted_6.png,Staffordshire Bull Terrier,Beagle,Sphynx,other,Birman,other,Sphynx,other,Persian,other
+1,1,data/cue_conflicts/pair1_dir1_accepted_7.png,Staffordshire Bull Terrier,Beagle,Sphynx,other,Persian,other,British Shorthair,other,Ragdoll,other
+1,1,data/cue_conflicts/pair1_dir1_accepted_8.png,Staffordshire Bull Terrier,Beagle,Sphynx,other,Persian,other,Sphynx,other,Bombay,other
+1,1,data/cue_conflicts/pair1_dir1_accepted_9.png,Staffordshire Bull Terrier,Beagle,Sphynx,other,Bengal,other,British Shorthair,other,Bombay,other
+1,1,data/cue_conflicts/pair1_dir1_accepted_10.png,Staffordshire Bull Terrier,Beagle,Yorkshire Terrier,other,Persian,other,British Shorthair,other,Ragdoll,other
+1,1,data/cue_conflicts/pair1_dir1_accepted_11.png,Staffordshire Bull Terrier,Beagle,Sphynx,other,Persian,other,British Shorthair,other,Bombay,other
+1,1,data/cue_conflicts/pair1_dir1_accepted_12.png,Staffordshire Bull Terrier,Beagle,Sphynx,other,Persian,other,Boxer,other,Bombay,other
+1,1,data/cue_conflicts/pair1_dir1_accepted_13.png,Staffordshire Bull Terrier,Beagle,Siamese,other,Persian,other,Abyssinian,other,Ragdoll,other
+1,1,data/cue_conflicts/pair1_dir1_accepted_14.png,Staffordshire Bull Terrier,Beagle,Sphynx,other,Persian,other,Sphynx,other,Birman,other
+1,1,data/cue_conflicts/pair1_dir1_accepted_15.png,Staffordshire Bull Terrier,Beagle,Sphynx,other,Bengal,other,British Shorthair,other,Bombay,other
+1,1,data/cue_conflicts/pair1_dir1_accepted_16.png,Staffordshire Bull Terrier,Beagle,Sphynx,other,Ragdoll,other,British Shorthair,other,Ragdoll,other
+1,1,data/cue_conflicts/pair1_dir1_accepted_17.png,Staffordshire Bull Terrier,Beagle,Bombay,other,Pug,other,British Shorthair,other,Bombay,other
+1,1,data/cue_conflicts/pair1_dir1_accepted_19.png,Staffordshire Bull Terrier,Beagle,Sphynx,other,Birman,other,British Shorthair,other,Scottish Terrier,other
+1,1,data/cue_conflicts/pair1_dir1_accepted_20.png,Staffordshire Bull Terrier,Beagle,Sphynx,other,Birman,other,Sphynx,other,Ragdoll,other
+1,1,data/cue_conflicts/pair1_dir1_accepted_21.png,Staffordshire Bull Terrier,Beagle,Sphynx,other,Persian,other,Sphynx,other,Bombay,other
+1,1,data/cue_conflicts/pair1_dir1_accepted_22.png,Staffordshire Bull Terrier,Beagle,Sphynx,other,Maine Coon,other,British Shorthair,other,Ragdoll,other
+1,1,data/cue_conflicts/pair1_dir1_accepted_23.png,Staffordshire Bull Terrier,Beagle,Sphynx,other,Bengal,other,British Shorthair,other,British Shorthair,other
+1,1,data/cue_conflicts/pair1_dir1_accepted_24.png,Staffordshire Bull Terrier,Beagle,Sphynx,other,Ragdoll,other,British Shorthair,other,Birman,other
+1,1,data/cue_conflicts/pair1_dir1_accepted_25.png,Staffordshire Bull Terrier,Beagle,Sphynx,other,Persian,other,Sphynx,other,Persian,other
+2,0,data/cue_conflicts/pair2_dir0_accepted_1.png,Basset Hound,Leonberger,Sphynx,other,Persian,other,British Shorthair,other,Ragdoll,other
+2,0,data/cue_conflicts/pair2_dir0_accepted_2.png,Basset Hound,Leonberger,Bombay,other,Persian,other,British Shorthair,other,Bombay,other
+2,0,data/cue_conflicts/pair2_dir0_accepted_3.png,Basset Hound,Leonberger,Sphynx,other,Persian,other,Boxer,other,Miniature Pinscher,other
+2,0,data/cue_conflicts/pair2_dir0_accepted_4.png,Basset Hound,Leonberger,Sphynx,other,Persian,other,Boxer,other,Bombay,other
+2,0,data/cue_conflicts/pair2_dir0_accepted_5.png,Basset Hound,Leonberger,Bombay,other,Persian,other,British Shorthair,other,Ragdoll,other
+2,0,data/cue_conflicts/pair2_dir0_accepted_6.png,Basset Hound,Leonberger,Abyssinian,other,Persian,other,British Shorthair,other,Bombay,other
+2,0,data/cue_conflicts/pair2_dir0_accepted_7.png,Basset Hound,Leonberger,Sphynx,other,Persian,other,Sphynx,other,Persian,other
+2,0,data/cue_conflicts/pair2_dir0_accepted_8.png,Basset Hound,Leonberger,Maine Coon,other,American Pit Bull Terrier,other,Shiba Inu,other,Persian,other
+2,0,data/cue_conflicts/pair2_dir0_accepted_9.png,Basset Hound,Leonberger,Sphynx,other,Great Pyrenees,other,British Shorthair,other,Persian,other
+2,0,data/cue_conflicts/pair2_dir0_accepted_10.png,Basset Hound,Leonberger,Sphynx,other,Persian,other,British Shorthair,other,Ragdoll,other
+2,0,data/cue_conflicts/pair2_dir0_accepted_11.png,Basset Hound,Leonberger,Yorkshire Terrier,other,Shiba Inu,other,Sphynx,other,Sphynx,other
+2,0,data/cue_conflicts/pair2_dir0_accepted_12.png,Basset Hound,Leonberger,Sphynx,other,Ragdoll,other,Sphynx,other,Persian,other
+2,0,data/cue_conflicts/pair2_dir0_accepted_13.png,Basset Hound,Leonberger,Sphynx,other,Ragdoll,other,British Shorthair,other,Sphynx,other
+2,0,data/cue_conflicts/pair2_dir0_accepted_14.png,Basset Hound,Leonberger,Sphynx,other,British Shorthair,other,British Shorthair,other,Persian,other
+2,0,data/cue_conflicts/pair2_dir0_accepted_15.png,Basset Hound,Leonberger,Sphynx,other,Birman,other,British Shorthair,other,Bombay,other
+2,0,data/cue_conflicts/pair2_dir0_accepted_16.png,Basset Hound,Leonberger,Sphynx,other,Persian,other,Sphynx,other,Sphynx,other
+2,0,data/cue_conflicts/pair2_dir0_accepted_17.png,Basset Hound,Leonberger,Sphynx,other,Persian,other,British Shorthair,other,Persian,other
+2,0,data/cue_conflicts/pair2_dir0_accepted_18.png,Basset Hound,Leonberger,Sphynx,other,Sphynx,other,British Shorthair,other,Sphynx,other
+2,0,data/cue_conflicts/pair2_dir0_accepted_19.png,Basset Hound,Leonberger,Yorkshire Terrier,other,Persian,other,British Shorthair,other,Ragdoll,other
+2,0,data/cue_conflicts/pair2_dir0_accepted_20.png,Basset Hound,Leonberger,Sphynx,other,Persian,other,Sphynx,other,Sphynx,other
+2,0,data/cue_conflicts/pair2_dir0_accepted_21.png,Basset Hound,Leonberger,Bombay,other,Persian,other,British Shorthair,other,Basset Hound,shape
+2,0,data/cue_conflicts/pair2_dir0_accepted_22.png,Basset Hound,Leonberger,Sphynx,other,Persian,other,British Shorthair,other,Bombay,other
+2,0,data/cue_conflicts/pair2_dir0_accepted_23.png,Basset Hound,Leonberger,Sphynx,other,Maine Coon,other,Shiba Inu,other,Chihuahua,other
+2,0,data/cue_conflicts/pair2_dir0_accepted_24.png,Basset Hound,Leonberger,Sphynx,other,Persian,other,Sphynx,other,Japanese Chin,other
+2,1,data/cue_conflicts/pair2_dir1_accepted_1.png,Leonberger,Basset Hound,Sphynx,other,Beagle,other,Boxer,other,Persian,other
+2,1,data/cue_conflicts/pair2_dir1_accepted_2.png,Leonberger,Basset Hound,Yorkshire Terrier,other,Persian,other,Sphynx,other,Sphynx,other
+2,1,data/cue_conflicts/pair2_dir1_accepted_3.png,Leonberger,Basset Hound,Sphynx,other,Persian,other,Sphynx,other,Sphynx,other
+2,1,data/cue_conflicts/pair2_dir1_accepted_4.png,Leonberger,Basset Hound,Bombay,other,Ragdoll,other,Sphynx,other,Bombay,other
+2,1,data/cue_conflicts/pair2_dir1_accepted_5.png,Leonberger,Basset Hound,Yorkshire Terrier,other,Birman,other,Sphynx,other,Japanese Chin,other
+2,1,data/cue_conflicts/pair2_dir1_accepted_6.png,Leonberger,Basset Hound,Sphynx,other,Newfoundland,other,Sphynx,other,Bombay,other
+2,1,data/cue_conflicts/pair2_dir1_accepted_7.png,Leonberger,Basset Hound,Sphynx,other,Pomeranian,other,British Shorthair,other,Bombay,other
+2,1,data/cue_conflicts/pair2_dir1_accepted_8.png,Leonberger,Basset Hound,Sphynx,other,Persian,other,British Shorthair,other,Bombay,other
+2,1,data/cue_conflicts/pair2_dir1_accepted_9.png,Leonberger,Basset Hound,Sphynx,other,Bengal,other,British Shorthair,other,Ragdoll,other
+2,1,data/cue_conflicts/pair2_dir1_accepted_11.png,Leonberger,Basset Hound,Sphynx,other,Persian,other,Sphynx,other,Bombay,other
+2,1,data/cue_conflicts/pair2_dir1_accepted_12.png,Leonberger,Basset Hound,Sphynx,other,Persian,other,Persian,other,Bombay,other
+2,1,data/cue_conflicts/pair2_dir1_accepted_13.png,Leonberger,Basset Hound,Sphynx,other,Ragdoll,other,British Shorthair,other,Bombay,other
+2,1,data/cue_conflicts/pair2_dir1_accepted_14.png,Leonberger,Basset Hound,Sphynx,other,Persian,other,Sphynx,other,Persian,other
+2,1,data/cue_conflicts/pair2_dir1_accepted_15.png,Leonberger,Basset Hound,Sphynx,other,Persian,other,Japanese Chin,other,Japanese Chin,other
+2,1,data/cue_conflicts/pair2_dir1_accepted_16.png,Leonberger,Basset Hound,Sphynx,other,Maine Coon,other,Sphynx,other,Bombay,other
+2,1,data/cue_conflicts/pair2_dir1_accepted_17.png,Leonberger,Basset Hound,Sphynx,other,Persian,other,British Shorthair,other,Persian,other
+2,1,data/cue_conflicts/pair2_dir1_accepted_18.png,Leonberger,Basset Hound,Yorkshire Terrier,other,Ragdoll,other,British Shorthair,other,Bombay,other
+2,1,data/cue_conflicts/pair2_dir1_accepted_19.png,Leonberger,Basset Hound,Sphynx,other,Persian,other,Sphynx,other,Bombay,other
+2,1,data/cue_conflicts/pair2_dir1_accepted_20.png,Leonberger,Basset Hound,Bombay,other,Persian,other,Sphynx,other,Bombay,other
+2,1,data/cue_conflicts/pair2_dir1_accepted_21.png,Leonberger,Basset Hound,Sphynx,other,Birman,other,British Shorthair,other,Scottish Terrier,other
+2,1,data/cue_conflicts/pair2_dir1_accepted_22.png,Leonberger,Basset Hound,Sphynx,other,Bombay,other,Japanese Chin,other,Japanese Chin,other
+2,1,data/cue_conflicts/pair2_dir1_accepted_23.png,Leonberger,Basset Hound,Sphynx,other,Persian,other,Sphynx,other,Persian,other
+2,1,data/cue_conflicts/pair2_dir1_accepted_24.png,Leonberger,Basset Hound,Sphynx,other,Persian,other,British Shorthair,other,Bombay,other
+2,1,data/cue_conflicts/pair2_dir1_accepted_25.png,Leonberger,Basset Hound,Sphynx,other,Persian,other,British Shorthair,other,Bombay,other
+3,0,data/cue_conflicts/pair3_dir0_accepted_2.png,Scottish Terrier,Yorkshire Terrier,Yorkshire Terrier,texture,Persian,other,Boxer,other,Bombay,other
+3,0,data/cue_conflicts/pair3_dir0_accepted_3.png,Scottish Terrier,Yorkshire Terrier,Sphynx,other,Persian,other,Sphynx,other,Bombay,other
+3,0,data/cue_conflicts/pair3_dir0_accepted_4.png,Scottish Terrier,Yorkshire Terrier,Sphynx,other,Scottish Terrier,shape,Sphynx,other,Chihuahua,other
+3,0,data/cue_conflicts/pair3_dir0_accepted_5.png,Scottish Terrier,Yorkshire Terrier,Sphynx,other,Ragdoll,other,British Shorthair,other,Bombay,other
+3,0,data/cue_conflicts/pair3_dir0_accepted_6.png,Scottish Terrier,Yorkshire Terrier,Sphynx,other,Sphynx,other,Boxer,other,Scottish Terrier,shape
+3,0,data/cue_conflicts/pair3_dir0_accepted_7.png,Scottish Terrier,Yorkshire Terrier,Sphynx,other,Persian,other,British Shorthair,other,Scottish Terrier,shape
+3,0,data/cue_conflicts/pair3_dir0_accepted_8.png,Scottish Terrier,Yorkshire Terrier,Sphynx,other,Persian,other,Sphynx,other,Ragdoll,other
+3,0,data/cue_conflicts/pair3_dir0_accepted_9.png,Scottish Terrier,Yorkshire Terrier,Yorkshire Terrier,texture,Persian,other,Sphynx,other,Bengal,other
+3,0,data/cue_conflicts/pair3_dir0_accepted_10.png,Scottish Terrier,Yorkshire Terrier,Sphynx,other,American Pit Bull Terrier,other,British Shorthair,other,Sphynx,other
+3,0,data/cue_conflicts/pair3_dir0_accepted_11.png,Scottish Terrier,Yorkshire Terrier,Sphynx,other,Persian,other,British Shorthair,other,Ragdoll,other
+3,0,data/cue_conflicts/pair3_dir0_accepted_12.png,Scottish Terrier,Yorkshire Terrier,Sphynx,other,Persian,other,Boxer,other,Bombay,other
+3,0,data/cue_conflicts/pair3_dir0_accepted_13.png,Scottish Terrier,Yorkshire Terrier,Sphynx,other,Persian,other,Sphynx,other,Japanese Chin,other
+3,0,data/cue_conflicts/pair3_dir0_accepted_14.png,Scottish Terrier,Yorkshire Terrier,Yorkshire Terrier,texture,Persian,other,British Shorthair,other,Bombay,other
+3,0,data/cue_conflicts/pair3_dir0_accepted_15.png,Scottish Terrier,Yorkshire Terrier,Yorkshire Terrier,texture,Sphynx,other,British Shorthair,other,Egyptian Mau,other
+3,0,data/cue_conflicts/pair3_dir0_accepted_16.png,Scottish Terrier,Yorkshire Terrier,Sphynx,other,American Pit Bull Terrier,other,Shiba Inu,other,Persian,other
+3,0,data/cue_conflicts/pair3_dir0_accepted_17.png,Scottish Terrier,Yorkshire Terrier,Yorkshire Terrier,texture,British Shorthair,other,British Shorthair,other,Persian,other
+3,0,data/cue_conflicts/pair3_dir0_accepted_18.png,Scottish Terrier,Yorkshire Terrier,Sphynx,other,Pomeranian,other,Sphynx,other,Bombay,other
+3,0,data/cue_conflicts/pair3_dir0_accepted_19.png,Scottish Terrier,Yorkshire Terrier,Sphynx,other,Persian,other,Sphynx,other,Bombay,other
+3,0,data/cue_conflicts/pair3_dir0_accepted_21.png,Scottish Terrier,Yorkshire Terrier,Yorkshire Terrier,texture,Ragdoll,other,British Shorthair,other,Bombay,other
+3,0,data/cue_conflicts/pair3_dir0_accepted_22.png,Scottish Terrier,Yorkshire Terrier,Sphynx,other,Persian,other,Sphynx,other,Bombay,other
+3,0,data/cue_conflicts/pair3_dir0_accepted_23.png,Scottish Terrier,Yorkshire Terrier,Sphynx,other,Persian,other,British Shorthair,other,Chihuahua,other
+3,0,data/cue_conflicts/pair3_dir0_accepted_24.png,Scottish Terrier,Yorkshire Terrier,Sphynx,other,Ragdoll,other,British Shorthair,other,Sphynx,other
+3,0,data/cue_conflicts/pair3_dir0_accepted_25.png,Scottish Terrier,Yorkshire Terrier,Sphynx,other,Persian,other,British Shorthair,other,Bombay,other
+3,0,data/cue_conflicts/pair3_dir0_accepted_26.png,Scottish Terrier,Yorkshire Terrier,Sphynx,other,Sphynx,other,British Shorthair,other,Bombay,other
+3,1,data/cue_conflicts/pair3_dir1_accepted_1.png,Yorkshire Terrier,Scottish Terrier,Bombay,other,Persian,other,British Shorthair,other,Bombay,other
+3,1,data/cue_conflicts/pair3_dir1_accepted_2.png,Yorkshire Terrier,Scottish Terrier,Sphynx,other,Ragdoll,other,Sphynx,other,Sphynx,other
+3,1,data/cue_conflicts/pair3_dir1_accepted_3.png,Yorkshire Terrier,Scottish Terrier,Sphynx,other,Persian,other,Sphynx,other,Bombay,other
+3,1,data/cue_conflicts/pair3_dir1_accepted_4.png,Yorkshire Terrier,Scottish Terrier,Abyssinian,other,Pug,other,Sphynx,other,Bombay,other
+3,1,data/cue_conflicts/pair3_dir1_accepted_5.png,Yorkshire Terrier,Scottish Terrier,Sphynx,other,Persian,other,Sphynx,other,Bombay,other
+3,1,data/cue_conflicts/pair3_dir1_accepted_6.png,Yorkshire Terrier,Scottish Terrier,Sphynx,other,Pomeranian,other,British Shorthair,other,Basset Hound,other
+3,1,data/cue_conflicts/pair3_dir1_accepted_7.png,Yorkshire Terrier,Scottish Terrier,Sphynx,other,Persian,other,Sphynx,other,Persian,other
+3,1,data/cue_conflicts/pair3_dir1_accepted_8.png,Yorkshire Terrier,Scottish Terrier,Sphynx,other,Persian,other,British Shorthair,other,Bombay,other
+3,1,data/cue_conflicts/pair3_dir1_accepted_9.png,Yorkshire Terrier,Scottish Terrier,Sphynx,other,Persian,other,Sphynx,other,Bombay,other
+3,1,data/cue_conflicts/pair3_dir1_accepted_10.png,Yorkshire Terrier,Scottish Terrier,Sphynx,other,Birman,other,Sphynx,other,Bombay,other
+3,1,data/cue_conflicts/pair3_dir1_accepted_11.png,Yorkshire Terrier,Scottish Terrier,Yorkshire Terrier,shape,Persian,other,Sphynx,other,Bombay,other
+3,1,data/cue_conflicts/pair3_dir1_accepted_12.png,Yorkshire Terrier,Scottish Terrier,Bombay,other,Persian,other,Sphynx,other,Bombay,other
+3,1,data/cue_conflicts/pair3_dir1_accepted_13.png,Yorkshire Terrier,Scottish Terrier,Sphynx,other,Persian,other,Sphynx,other,Bombay,other
+3,1,data/cue_conflicts/pair3_dir1_accepted_14.png,Yorkshire Terrier,Scottish Terrier,Sphynx,other,Persian,other,Sphynx,other,Sphynx,other
+3,1,data/cue_conflicts/pair3_dir1_accepted_15.png,Yorkshire Terrier,Scottish Terrier,Bombay,other,Persian,other,Sphynx,other,Chihuahua,other
+3,1,data/cue_conflicts/pair3_dir1_accepted_16.png,Yorkshire Terrier,Scottish Terrier,Sphynx,other,Pomeranian,other,Sphynx,other,Persian,other
+3,1,data/cue_conflicts/pair3_dir1_accepted_17.png,Yorkshire Terrier,Scottish Terrier,Sphynx,other,Persian,other,British Shorthair,other,Bombay,other
+3,1,data/cue_conflicts/pair3_dir1_accepted_18.png,Yorkshire Terrier,Scottish Terrier,Sphynx,other,Persian,other,Sphynx,other,Sphynx,other
+3,1,data/cue_conflicts/pair3_dir1_accepted_19.png,Yorkshire Terrier,Scottish Terrier,Sphynx,other,Persian,other,British Shorthair,other,Bombay,other
+3,1,data/cue_conflicts/pair3_dir1_accepted_20.png,Yorkshire Terrier,Scottish Terrier,Yorkshire Terrier,shape,Persian,other,British Shorthair,other,Bombay,other
+3,1,data/cue_conflicts/pair3_dir1_accepted_21.png,Yorkshire Terrier,Scottish Terrier,Sphynx,other,Persian,other,British Shorthair,other,Bombay,other
+3,1,data/cue_conflicts/pair3_dir1_accepted_22.png,Yorkshire Terrier,Scottish Terrier,Abyssinian,other,Persian,other,Sphynx,other,Japanese Chin,other
+3,1,data/cue_conflicts/pair3_dir1_accepted_23.png,Yorkshire Terrier,Scottish Terrier,Yorkshire Terrier,shape,Ragdoll,other,Sphynx,other,Boxer,other
+3,1,data/cue_conflicts/pair3_dir1_accepted_24.png,Yorkshire Terrier,Scottish Terrier,Sphynx,other,Persian,other,British Shorthair,other,Ragdoll,other
+4,0,data/cue_conflicts/pair4_dir0_accepted_1.png,Bombay,Miniature Pinscher,Sphynx,other,Boxer,other,Boxer,other,Persian,other
+4,0,data/cue_conflicts/pair4_dir0_accepted_2.png,Bombay,Miniature Pinscher,Sphynx,other,Ragdoll,other,British Shorthair,other,Chihuahua,other
+4,0,data/cue_conflicts/pair4_dir0_accepted_3.png,Bombay,Miniature Pinscher,Yorkshire Terrier,other,Pomeranian,other,British Shorthair,other,Persian,other
+4,0,data/cue_conflicts/pair4_dir0_accepted_4.png,Bombay,Miniature Pinscher,Sphynx,other,Birman,other,Sphynx,other,Sphynx,other
+4,0,data/cue_conflicts/pair4_dir0_accepted_5.png,Bombay,Miniature Pinscher,Sphynx,other,Persian,other,British Shorthair,other,Birman,other
+4,0,data/cue_conflicts/pair4_dir0_accepted_6.png,Bombay,Miniature Pinscher,Sphynx,other,Persian,other,Sphynx,other,Bombay,shape
+4,0,data/cue_conflicts/pair4_dir0_accepted_7.png,Bombay,Miniature Pinscher,Sphynx,other,Persian,other,Sphynx,other,Bombay,shape
+4,0,data/cue_conflicts/pair4_dir0_accepted_8.png,Bombay,Miniature Pinscher,Sphynx,other,Sphynx,other,Sphynx,other,Chihuahua,other
+4,0,data/cue_conflicts/pair4_dir0_accepted_9.png,Bombay,Miniature Pinscher,Sphynx,other,Persian,other,Sphynx,other,Birman,other
+4,0,data/cue_conflicts/pair4_dir0_accepted_10.png,Bombay,Miniature Pinscher,Sphynx,other,Persian,other,British Shorthair,other,Persian,other
+4,0,data/cue_conflicts/pair4_dir0_accepted_11.png,Bombay,Miniature Pinscher,Sphynx,other,Persian,other,British Shorthair,other,Sphynx,other
+4,0,data/cue_conflicts/pair4_dir0_accepted_12.png,Bombay,Miniature Pinscher,Abyssinian,other,Persian,other,Sphynx,other,Ragdoll,other
+4,0,data/cue_conflicts/pair4_dir0_accepted_13.png,Bombay,Miniature Pinscher,Sphynx,other,Persian,other,Sphynx,other,Sphynx,other
+4,0,data/cue_conflicts/pair4_dir0_accepted_14.png,Bombay,Miniature Pinscher,Sphynx,other,Ragdoll,other,Sphynx,other,Bombay,shape
+4,0,data/cue_conflicts/pair4_dir0_accepted_15.png,Bombay,Miniature Pinscher,Sphynx,other,Birman,other,British Shorthair,other,Ragdoll,other
+4,0,data/cue_conflicts/pair4_dir0_accepted_16.png,Bombay,Miniature Pinscher,Egyptian Mau,other,Persian,other,British Shorthair,other,Bombay,shape
+4,0,data/cue_conflicts/pair4_dir0_accepted_17.png,Bombay,Miniature Pinscher,Bombay,shape,Birman,other,British Shorthair,other,Bombay,shape
+4,0,data/cue_conflicts/pair4_dir0_accepted_18.png,Bombay,Miniature Pinscher,Sphynx,other,Persian,other,Sphynx,other,Ragdoll,other
+4,0,data/cue_conflicts/pair4_dir0_accepted_19.png,Bombay,Miniature Pinscher,Bombay,shape,Yorkshire Terrier,other,British Shorthair,other,Bombay,shape
+4,0,data/cue_conflicts/pair4_dir0_accepted_20.png,Bombay,Miniature Pinscher,Sphynx,other,Ragdoll,other,British Shorthair,other,Bombay,shape
+4,0,data/cue_conflicts/pair4_dir0_accepted_21.png,Bombay,Miniature Pinscher,Sphynx,other,Ragdoll,other,Persian,other,Bombay,shape
+4,0,data/cue_conflicts/pair4_dir0_accepted_22.png,Bombay,Miniature Pinscher,Yorkshire Terrier,other,Shiba Inu,other,Sphynx,other,Birman,other
+4,0,data/cue_conflicts/pair4_dir0_accepted_23.png,Bombay,Miniature Pinscher,Sphynx,other,Persian,other,Sphynx,other,Scottish Terrier,other
+4,0,data/cue_conflicts/pair4_dir0_accepted_24.png,Bombay,Miniature Pinscher,Sphynx,other,Persian,other,British Shorthair,other,Ragdoll,other
+4,1,data/cue_conflicts/pair4_dir1_accepted_1.png,Miniature Pinscher,Bombay,Sphynx,other,Ragdoll,other,British Shorthair,other,Bombay,texture
+4,1,data/cue_conflicts/pair4_dir1_accepted_2.png,Miniature Pinscher,Bombay,Sphynx,other,Persian,other,British Shorthair,other,Bombay,texture
+4,1,data/cue_conflicts/pair4_dir1_accepted_3.png,Miniature Pinscher,Bombay,Abyssinian,other,Ragdoll,other,British Shorthair,other,Bombay,texture
+4,1,data/cue_conflicts/pair4_dir1_accepted_4.png,Miniature Pinscher,Bombay,Sphynx,other,Persian,other,Sphynx,other,Bombay,texture
+4,1,data/cue_conflicts/pair4_dir1_accepted_5.png,Miniature Pinscher,Bombay,Sphynx,other,Persian,other,Boxer,other,Basset Hound,other
+4,1,data/cue_conflicts/pair4_dir1_accepted_6.png,Miniature Pinscher,Bombay,Maine Coon,other,Persian,other,Sphynx,other,Bombay,texture
+4,1,data/cue_conflicts/pair4_dir1_accepted_7.png,Miniature Pinscher,Bombay,Sphynx,other,Persian,other,British Shorthair,other,Bombay,texture
+4,1,data/cue_conflicts/pair4_dir1_accepted_8.png,Miniature Pinscher,Bombay,Sphynx,other,Pomeranian,other,British Shorthair,other,Japanese Chin,other
+4,1,data/cue_conflicts/pair4_dir1_accepted_9.png,Miniature Pinscher,Bombay,Sphynx,other,Persian,other,Sphynx,other,Bombay,texture
+4,1,data/cue_conflicts/pair4_dir1_accepted_10.png,Miniature Pinscher,Bombay,Sphynx,other,Ragdoll,other,Sphynx,other,Bombay,texture
+4,1,data/cue_conflicts/pair4_dir1_accepted_11.png,Miniature Pinscher,Bombay,Sphynx,other,Persian,other,British Shorthair,other,Persian,other
+4,1,data/cue_conflicts/pair4_dir1_accepted_12.png,Miniature Pinscher,Bombay,Sphynx,other,Ragdoll,other,Sphynx,other,Bombay,texture
+4,1,data/cue_conflicts/pair4_dir1_accepted_13.png,Miniature Pinscher,Bombay,Sphynx,other,Persian,other,British Shorthair,other,Bombay,texture
+4,1,data/cue_conflicts/pair4_dir1_accepted_14.png,Miniature Pinscher,Bombay,Sphynx,other,Persian,other,Sphynx,other,Ragdoll,other
+4,1,data/cue_conflicts/pair4_dir1_accepted_15.png,Miniature Pinscher,Bombay,Yorkshire Terrier,other,Pomeranian,other,British Shorthair,other,Bombay,texture
+4,1,data/cue_conflicts/pair4_dir1_accepted_16.png,Miniature Pinscher,Bombay,Sphynx,other,Pomeranian,other,British Shorthair,other,Birman,other
+4,1,data/cue_conflicts/pair4_dir1_accepted_17.png,Miniature Pinscher,Bombay,Sphynx,other,Persian,other,British Shorthair,other,Bombay,texture
+4,1,data/cue_conflicts/pair4_dir1_accepted_18.png,Miniature Pinscher,Bombay,Sphynx,other,Persian,other,British Shorthair,other,Bombay,texture
+4,1,data/cue_conflicts/pair4_dir1_accepted_19.png,Miniature Pinscher,Bombay,Yorkshire Terrier,other,Samoyed,other,British Shorthair,other,Bombay,texture
+4,1,data/cue_conflicts/pair4_dir1_accepted_20.png,Miniature Pinscher,Bombay,Sphynx,other,Shiba Inu,other,Sphynx,other,Sphynx,other
+4,1,data/cue_conflicts/pair4_dir1_accepted_21.png,Miniature Pinscher,Bombay,Sphynx,other,Persian,other,British Shorthair,other,Bombay,texture
+4,1,data/cue_conflicts/pair4_dir1_accepted_22.png,Miniature Pinscher,Bombay,Sphynx,other,Persian,other,Sphynx,other,Bombay,texture
+4,1,data/cue_conflicts/pair4_dir1_accepted_23.png,Miniature Pinscher,Bombay,Sphynx,other,Persian,other,Sphynx,other,Bombay,texture
+4,1,data/cue_conflicts/pair4_dir1_accepted_24.png,Miniature Pinscher,Bombay,Sphynx,other,Persian,other,British Shorthair,other,Bombay,texture

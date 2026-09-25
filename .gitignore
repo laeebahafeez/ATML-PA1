@@ -1,0 +1,36 @@
+# raw datasets (downloaded at runtime, never committed)
+# NOTE: scoped to */data/raw/ specifically -- a bare "data/" pattern also
+# matched task1/data/ and task4/data/, which are Python source packages
+# (dataset.py, transforms.py, etc.), not raw data, and were being silently
+# excluded from every commit as a result.
+**/data/raw/
+*.tar.gz
+
+# trained model weights -- large, regenerable from configs + code + seed 6304
+checkpoints/
+*.pt
+*.pth
+
+# feature/logit cache (Task 4) -- regenerable from checkpoints
+cache/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# misc
+.ipynb_checkpoints/
+wandb/
+.DS_Store
+
+# LaTeX build artifacts (report.pdf itself IS committed; these intermediates are not)
+report/*.aux
+report/*.log
+report/*.out
+report/*.bbl
+report/*.blg
+report/*.fls
+report/*.fdb_latexmk
+report/*.synctex.gz

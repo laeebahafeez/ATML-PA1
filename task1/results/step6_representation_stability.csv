@@ -1,0 +1,13 @@
+model,transform,I_T
+resnet50,grayscale,0.8548130989074707
+resnet50,patch_shuffle,0.703208327293396
+resnet50,translation_32px,0.9500876516103745
+resnet50,cue_conflict,0.06850718706846237
+vit_b16,grayscale,0.7940455079078674
+vit_b16,patch_shuffle,0.6530579924583435
+vit_b16,translation_32px,0.9645914733409882
+vit_b16,cue_conflict,-0.00877417903393507
+clip_vitb32,grayscale,0.9077976942062378
+clip_vitb32,patch_shuffle,0.7765752077102661
+clip_vitb32,translation_32px,0.9702349454164505
+clip_vitb32,cue_conflict,0.5907368063926697

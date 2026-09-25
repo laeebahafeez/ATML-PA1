@@ -1,0 +1,3875 @@
+{
+  "seed": 6304,
+  "alpha": 1.0,
+  "class_pairs": [
+    [
+      "Russian Blue",
+      "Sphynx"
+    ],
+    [
+      "Beagle",
+      "Staffordshire Bull Terrier"
+    ],
+    [
+      "Basset Hound",
+      "Leonberger"
+    ],
+    [
+      "Scottish Terrier",
+      "Yorkshire Terrier"
+    ],
+    [
+      "Bombay",
+      "Miniature Pinscher"
+    ]
+  ],
+  "rejection_rule": {
+    "max_edge_energy_ratio": 6.0,
+    "min_edge_energy_ratio": 0.15,
+    "min_pixel_std": 0.03
+  },
+  "n_accepted": 240,
+  "n_rejected": 7,
+  "conflicts": [
+    {
+      "pair_id": 0,
+      "direction": 0,
+      "content_class_idx": 27,
+      "content_class_name": "Russian Blue",
+      "style_class_idx": 33,
+      "style_class_name": "Sphynx",
+      "content_dataset_index": 3225,
+      "style_dataset_index": 1664,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07664763182401657,
+        "edge_energy_ratio": 0.4522587385380961
+      },
+      "image_path": "data/cue_conflicts/pair0_dir0_accepted_1.png"
+    },
+    {
+      "pair_id": 0,
+      "direction": 0,
+      "content_class_idx": 27,
+      "content_class_name": "Russian Blue",
+      "style_class_idx": 33,
+      "style_class_name": "Sphynx",
+      "content_dataset_index": 3228,
+      "style_dataset_index": 1671,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.09420747309923172,
+        "edge_energy_ratio": 0.2561550834624162
+      },
+      "image_path": "data/cue_conflicts/pair0_dir0_accepted_2.png"
+    },
+    {
+      "pair_id": 0,
+      "direction": 0,
+      "content_class_idx": 27,
+      "content_class_name": "Russian Blue",
+      "style_class_idx": 33,
+      "style_class_name": "Sphynx",
+      "content_dataset_index": 1382,
+      "style_dataset_index": 3514,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07621139287948608,
+        "edge_energy_ratio": 0.5106048692931537
+      },
+      "image_path": "data/cue_conflicts/pair0_dir0_accepted_3.png"
+    },
+    {
+      "pair_id": 0,
+      "direction": 0,
+      "content_class_idx": 27,
+      "content_class_name": "Russian Blue",
+      "style_class_idx": 33,
+      "style_class_name": "Sphynx",
+      "content_dataset_index": 3191,
+      "style_dataset_index": 1688,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.12023361772298813,
+        "edge_energy_ratio": 0.20418727469377906
+      },
+      "image_path": "data/cue_conflicts/pair0_dir0_accepted_4.png"
+    },
+    {
+      "pair_id": 0,
+      "direction": 0,
+      "content_class_idx": 27,
+      "content_class_name": "Russian Blue",
+      "style_class_idx": 33,
+      "style_class_name": "Sphynx",
+      "content_dataset_index": 3226,
+      "style_dataset_index": 3497,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.0866425558924675,
+        "edge_energy_ratio": 0.6865175461257775
+      },
+      "image_path": "data/cue_conflicts/pair0_dir0_accepted_5.png"
+    },
+    {
+      "pair_id": 0,
+      "direction": 0,
+      "content_class_idx": 27,
+      "content_class_name": "Russian Blue",
+      "style_class_idx": 33,
+      "style_class_name": "Sphynx",
+      "content_dataset_index": 1371,
+      "style_dataset_index": 1666,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07906302064657211,
+        "edge_energy_ratio": 0.5654881613979121
+      },
+      "image_path": "data/cue_conflicts/pair0_dir0_accepted_6.png"
+    },
+    {
+      "pair_id": 0,
+      "direction": 0,
+      "content_class_idx": 27,
+      "content_class_name": "Russian Blue",
+      "style_class_idx": 33,
+      "style_class_name": "Sphynx",
+      "content_dataset_index": 3225,
+      "style_dataset_index": 1689,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08770062774419785,
+        "edge_energy_ratio": 0.43221202599606134
+      },
+      "image_path": "data/cue_conflicts/pair0_dir0_accepted_7.png"
+    },
+    {
+      "pair_id": 0,
+      "direction": 0,
+      "content_class_idx": 27,
+      "content_class_name": "Russian Blue",
+      "style_class_idx": 33,
+      "style_class_name": "Sphynx",
+      "content_dataset_index": 3190,
+      "style_dataset_index": 3525,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07238676398992538,
+        "edge_energy_ratio": 0.50877926160061
+      },
+      "image_path": "data/cue_conflicts/pair0_dir0_accepted_8.png"
+    },
+    {
+      "pair_id": 0,
+      "direction": 0,
+      "content_class_idx": 27,
+      "content_class_name": "Russian Blue",
+      "style_class_idx": 33,
+      "style_class_name": "Sphynx",
+      "content_dataset_index": 3193,
+      "style_dataset_index": 3496,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07819406688213348,
+        "edge_energy_ratio": 0.6437446671343235
+      },
+      "image_path": "data/cue_conflicts/pair0_dir0_accepted_9.png"
+    },
+    {
+      "pair_id": 0,
+      "direction": 0,
+      "content_class_idx": 27,
+      "content_class_name": "Russian Blue",
+      "style_class_idx": 33,
+      "style_class_name": "Sphynx",
+      "content_dataset_index": 1346,
+      "style_dataset_index": 3515,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.10570535063743591,
+        "edge_energy_ratio": 0.5592044105064818
+      },
+      "image_path": "data/cue_conflicts/pair0_dir0_accepted_10.png"
+    },
+    {
+      "pair_id": 0,
+      "direction": 0,
+      "content_class_idx": 27,
+      "content_class_name": "Russian Blue",
+      "style_class_idx": 33,
+      "style_class_name": "Sphynx",
+      "content_dataset_index": 3221,
+      "style_dataset_index": 3520,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08570016920566559,
+        "edge_energy_ratio": 0.31837432556366946
+      },
+      "image_path": "data/cue_conflicts/pair0_dir0_accepted_11.png"
+    },
+    {
+      "pair_id": 0,
+      "direction": 0,
+      "content_class_idx": 27,
+      "content_class_name": "Russian Blue",
+      "style_class_idx": 33,
+      "style_class_name": "Sphynx",
+      "content_dataset_index": 1373,
+      "style_dataset_index": 1684,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.10194980353116989,
+        "edge_energy_ratio": 0.6466009888234615
+      },
+      "image_path": "data/cue_conflicts/pair0_dir0_accepted_12.png"
+    },
+    {
+      "pair_id": 0,
+      "direction": 0,
+      "content_class_idx": 27,
+      "content_class_name": "Russian Blue",
+      "style_class_idx": 33,
+      "style_class_name": "Sphynx",
+      "content_dataset_index": 3201,
+      "style_dataset_index": 1646,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.0712108463048935,
+        "edge_energy_ratio": 1.086032850952921
+      },
+      "image_path": "data/cue_conflicts/pair0_dir0_accepted_13.png"
+    },
+    {
+      "pair_id": 0,
+      "direction": 0,
+      "content_class_idx": 27,
+      "content_class_name": "Russian Blue",
+      "style_class_idx": 33,
+      "style_class_name": "Sphynx",
+      "content_dataset_index": 3192,
+      "style_dataset_index": 1666,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.0744425505399704,
+        "edge_energy_ratio": 0.337925084389976
+      },
+      "image_path": "data/cue_conflicts/pair0_dir0_accepted_14.png"
+    },
+    {
+      "pair_id": 0,
+      "direction": 0,
+      "content_class_idx": 27,
+      "content_class_name": "Russian Blue",
+      "style_class_idx": 33,
+      "style_class_name": "Sphynx",
+      "content_dataset_index": 1361,
+      "style_dataset_index": 3489,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08256295323371887,
+        "edge_energy_ratio": 0.4101406180927075
+      },
+      "image_path": "data/cue_conflicts/pair0_dir0_accepted_15.png"
+    },
+    {
+      "pair_id": 0,
+      "direction": 0,
+      "content_class_idx": 27,
+      "content_class_name": "Russian Blue",
+      "style_class_idx": 33,
+      "style_class_name": "Sphynx",
+      "content_dataset_index": 3182,
+      "style_dataset_index": 3492,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07269273698329926,
+        "edge_energy_ratio": 1.0586160836688094
+      },
+      "image_path": "data/cue_conflicts/pair0_dir0_accepted_16.png"
+    },
+    {
+      "pair_id": 0,
+      "direction": 0,
+      "content_class_idx": 27,
+      "content_class_name": "Russian Blue",
+      "style_class_idx": 33,
+      "style_class_name": "Sphynx",
+      "content_dataset_index": 3213,
+      "style_dataset_index": 1679,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07367970049381256,
+        "edge_energy_ratio": 0.42779926149931474
+      },
+      "image_path": "data/cue_conflicts/pair0_dir0_accepted_17.png"
+    },
+    {
+      "pair_id": 0,
+      "direction": 0,
+      "content_class_idx": 27,
+      "content_class_name": "Russian Blue",
+      "style_class_idx": 33,
+      "style_class_name": "Sphynx",
+      "content_dataset_index": 1347,
+      "style_dataset_index": 3484,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08377695828676224,
+        "edge_energy_ratio": 0.5417680953090666
+      },
+      "image_path": "data/cue_conflicts/pair0_dir0_accepted_18.png"
+    },
+    {
+      "pair_id": 0,
+      "direction": 0,
+      "content_class_idx": 27,
+      "content_class_name": "Russian Blue",
+      "style_class_idx": 33,
+      "style_class_name": "Sphynx",
+      "content_dataset_index": 1382,
+      "style_dataset_index": 3516,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.0848371684551239,
+        "edge_energy_ratio": 0.4980674077881037
+      },
+      "image_path": "data/cue_conflicts/pair0_dir0_accepted_19.png"
+    },
+    {
+      "pair_id": 0,
+      "direction": 0,
+      "content_class_idx": 27,
+      "content_class_name": "Russian Blue",
+      "style_class_idx": 33,
+      "style_class_name": "Sphynx",
+      "content_dataset_index": 3206,
+      "style_dataset_index": 1688,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.11120977252721786,
+        "edge_energy_ratio": 0.6512651221775788
+      },
+      "image_path": "data/cue_conflicts/pair0_dir0_accepted_20.png"
+    },
+    {
+      "pair_id": 0,
+      "direction": 0,
+      "content_class_idx": 27,
+      "content_class_name": "Russian Blue",
+      "style_class_idx": 33,
+      "style_class_name": "Sphynx",
+      "content_dataset_index": 1393,
+      "style_dataset_index": 3524,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08404052257537842,
+        "edge_energy_ratio": 0.4904552306145733
+      },
+      "image_path": "data/cue_conflicts/pair0_dir0_accepted_21.png"
+    },
+    {
+      "pair_id": 0,
+      "direction": 0,
+      "content_class_idx": 27,
+      "content_class_name": "Russian Blue",
+      "style_class_idx": 33,
+      "style_class_name": "Sphynx",
+      "content_dataset_index": 1353,
+      "style_dataset_index": 3488,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08544910699129105,
+        "edge_energy_ratio": 0.5115534738470878
+      },
+      "image_path": "data/cue_conflicts/pair0_dir0_accepted_23.png"
+    },
+    {
+      "pair_id": 0,
+      "direction": 0,
+      "content_class_idx": 27,
+      "content_class_name": "Russian Blue",
+      "style_class_idx": 33,
+      "style_class_name": "Sphynx",
+      "content_dataset_index": 3205,
+      "style_dataset_index": 1652,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.09138359874486923,
+        "edge_energy_ratio": 0.5957409350752773
+      },
+      "image_path": "data/cue_conflicts/pair0_dir0_accepted_24.png"
+    },
+    {
+      "pair_id": 0,
+      "direction": 0,
+      "content_class_idx": 27,
+      "content_class_name": "Russian Blue",
+      "style_class_idx": 33,
+      "style_class_name": "Sphynx",
+      "content_dataset_index": 3223,
+      "style_dataset_index": 3505,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08229748904705048,
+        "edge_energy_ratio": 0.8833394763109758
+      },
+      "image_path": "data/cue_conflicts/pair0_dir0_accepted_25.png"
+    },
+    {
+      "pair_id": 0,
+      "direction": 1,
+      "content_class_idx": 33,
+      "content_class_name": "Sphynx",
+      "style_class_idx": 27,
+      "style_class_name": "Russian Blue",
+      "content_dataset_index": 3485,
+      "style_dataset_index": 1377,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07904192060232162,
+        "edge_energy_ratio": 0.8250819930572193
+      },
+      "image_path": "data/cue_conflicts/pair0_dir1_accepted_1.png"
+    },
+    {
+      "pair_id": 0,
+      "direction": 1,
+      "content_class_idx": 33,
+      "content_class_name": "Sphynx",
+      "style_class_idx": 27,
+      "style_class_name": "Russian Blue",
+      "content_dataset_index": 3513,
+      "style_dataset_index": 3229,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.058633171021938324,
+        "edge_energy_ratio": 0.2857959689248453
+      },
+      "image_path": "data/cue_conflicts/pair0_dir1_accepted_2.png"
+    },
+    {
+      "pair_id": 0,
+      "direction": 1,
+      "content_class_idx": 33,
+      "content_class_name": "Sphynx",
+      "style_class_idx": 27,
+      "style_class_name": "Russian Blue",
+      "content_dataset_index": 1670,
+      "style_dataset_index": 1389,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07524114102125168,
+        "edge_energy_ratio": 0.2867854016600941
+      },
+      "image_path": "data/cue_conflicts/pair0_dir1_accepted_3.png"
+    },
+    {
+      "pair_id": 0,
+      "direction": 1,
+      "content_class_idx": 33,
+      "content_class_name": "Sphynx",
+      "style_class_idx": 27,
+      "style_class_name": "Russian Blue",
+      "content_dataset_index": 3513,
+      "style_dataset_index": 1368,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.09828290343284607,
+        "edge_energy_ratio": 0.38791139489381654
+      },
+      "image_path": "data/cue_conflicts/pair0_dir1_accepted_4.png"
+    },
+    {
+      "pair_id": 0,
+      "direction": 1,
+      "content_class_idx": 33,
+      "content_class_name": "Sphynx",
+      "style_class_idx": 27,
+      "style_class_name": "Russian Blue",
+      "content_dataset_index": 3516,
+      "style_dataset_index": 1368,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.0944368988275528,
+        "edge_energy_ratio": 1.0724085097082483
+      },
+      "image_path": "data/cue_conflicts/pair0_dir1_accepted_5.png"
+    },
+    {
+      "pair_id": 0,
+      "direction": 1,
+      "content_class_idx": 33,
+      "content_class_name": "Sphynx",
+      "style_class_idx": 27,
+      "style_class_name": "Russian Blue",
+      "content_dataset_index": 3528,
+      "style_dataset_index": 1368,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.09288158267736435,
+        "edge_energy_ratio": 1.2492637538508222
+      },
+      "image_path": "data/cue_conflicts/pair0_dir1_accepted_6.png"
+    },
+    {
+      "pair_id": 0,
+      "direction": 1,
+      "content_class_idx": 33,
+      "content_class_name": "Sphynx",
+      "style_class_idx": 27,
+      "style_class_name": "Russian Blue",
+      "content_dataset_index": 3513,
+      "style_dataset_index": 1349,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07184766232967377,
+        "edge_energy_ratio": 0.2656297199391914
+      },
+      "image_path": "data/cue_conflicts/pair0_dir1_accepted_7.png"
+    },
+    {
+      "pair_id": 0,
+      "direction": 1,
+      "content_class_idx": 33,
+      "content_class_name": "Sphynx",
+      "style_class_idx": 27,
+      "style_class_name": "Russian Blue",
+      "content_dataset_index": 3491,
+      "style_dataset_index": 3215,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.09394446015357971,
+        "edge_energy_ratio": 0.18841965237916916
+      },
+      "image_path": "data/cue_conflicts/pair0_dir1_accepted_8.png"
+    },
+    {
+      "pair_id": 0,
+      "direction": 1,
+      "content_class_idx": 33,
+      "content_class_name": "Sphynx",
+      "style_class_idx": 27,
+      "style_class_name": "Russian Blue",
+      "content_dataset_index": 1660,
+      "style_dataset_index": 1369,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08085465431213379,
+        "edge_energy_ratio": 0.33370322665664287
+      },
+      "image_path": "data/cue_conflicts/pair0_dir1_accepted_9.png"
+    },
+    {
+      "pair_id": 0,
+      "direction": 1,
+      "content_class_idx": 33,
+      "content_class_name": "Sphynx",
+      "style_class_idx": 27,
+      "style_class_name": "Russian Blue",
+      "content_dataset_index": 3526,
+      "style_dataset_index": 1382,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07367277890443802,
+        "edge_energy_ratio": 0.5484557371098694
+      },
+      "image_path": "data/cue_conflicts/pair0_dir1_accepted_10.png"
+    },
+    {
+      "pair_id": 0,
+      "direction": 1,
+      "content_class_idx": 33,
+      "content_class_name": "Sphynx",
+      "style_class_idx": 27,
+      "style_class_name": "Russian Blue",
+      "content_dataset_index": 1681,
+      "style_dataset_index": 3224,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07319405674934387,
+        "edge_energy_ratio": 0.300469353149477
+      },
+      "image_path": "data/cue_conflicts/pair0_dir1_accepted_11.png"
+    },
+    {
+      "pair_id": 0,
+      "direction": 1,
+      "content_class_idx": 33,
+      "content_class_name": "Sphynx",
+      "style_class_idx": 27,
+      "style_class_name": "Russian Blue",
+      "content_dataset_index": 1688,
+      "style_dataset_index": 3216,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.06868782639503479,
+        "edge_energy_ratio": 0.22891125333255796
+      },
+      "image_path": "data/cue_conflicts/pair0_dir1_accepted_12.png"
+    },
+    {
+      "pair_id": 0,
+      "direction": 1,
+      "content_class_idx": 33,
+      "content_class_name": "Sphynx",
+      "style_class_idx": 27,
+      "style_class_name": "Russian Blue",
+      "content_dataset_index": 3504,
+      "style_dataset_index": 1353,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07958265393972397,
+        "edge_energy_ratio": 0.18408628352711576
+      },
+      "image_path": "data/cue_conflicts/pair0_dir1_accepted_13.png"
+    },
+    {
+      "pair_id": 0,
+      "direction": 1,
+      "content_class_idx": 33,
+      "content_class_name": "Sphynx",
+      "style_class_idx": 27,
+      "style_class_name": "Russian Blue",
+      "content_dataset_index": 3484,
+      "style_dataset_index": 1372,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.06952685117721558,
+        "edge_energy_ratio": 0.5096919547311076
+      },
+      "image_path": "data/cue_conflicts/pair0_dir1_accepted_14.png"
+    },
+    {
+      "pair_id": 0,
+      "direction": 1,
+      "content_class_idx": 33,
+      "content_class_name": "Sphynx",
+      "style_class_idx": 27,
+      "style_class_name": "Russian Blue",
+      "content_dataset_index": 3517,
+      "style_dataset_index": 1389,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07441547513008118,
+        "edge_energy_ratio": 0.18438540972071038
+      },
+      "image_path": "data/cue_conflicts/pair0_dir1_accepted_15.png"
+    },
+    {
+      "pair_id": 0,
+      "direction": 1,
+      "content_class_idx": 33,
+      "content_class_name": "Sphynx",
+      "style_class_idx": 27,
+      "style_class_name": "Russian Blue",
+      "content_dataset_index": 1681,
+      "style_dataset_index": 3185,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07478515058755875,
+        "edge_energy_ratio": 0.3000019383537732
+      },
+      "image_path": "data/cue_conflicts/pair0_dir1_accepted_16.png"
+    },
+    {
+      "pair_id": 0,
+      "direction": 1,
+      "content_class_idx": 33,
+      "content_class_name": "Sphynx",
+      "style_class_idx": 27,
+      "style_class_name": "Russian Blue",
+      "content_dataset_index": 3519,
+      "style_dataset_index": 1394,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.0779632106423378,
+        "edge_energy_ratio": 0.7740207287560786
+      },
+      "image_path": "data/cue_conflicts/pair0_dir1_accepted_17.png"
+    },
+    {
+      "pair_id": 0,
+      "direction": 1,
+      "content_class_idx": 33,
+      "content_class_name": "Sphynx",
+      "style_class_idx": 27,
+      "style_class_name": "Russian Blue",
+      "content_dataset_index": 1667,
+      "style_dataset_index": 3208,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.06908374279737473,
+        "edge_energy_ratio": 0.3020091802197859
+      },
+      "image_path": "data/cue_conflicts/pair0_dir1_accepted_18.png"
+    },
+    {
+      "pair_id": 0,
+      "direction": 1,
+      "content_class_idx": 33,
+      "content_class_name": "Sphynx",
+      "style_class_idx": 27,
+      "style_class_name": "Russian Blue",
+      "content_dataset_index": 1654,
+      "style_dataset_index": 1385,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.0816749632358551,
+        "edge_energy_ratio": 0.5621237998876282
+      },
+      "image_path": "data/cue_conflicts/pair0_dir1_accepted_19.png"
+    },
+    {
+      "pair_id": 0,
+      "direction": 1,
+      "content_class_idx": 33,
+      "content_class_name": "Sphynx",
+      "style_class_idx": 27,
+      "style_class_name": "Russian Blue",
+      "content_dataset_index": 3481,
+      "style_dataset_index": 1350,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08372107148170471,
+        "edge_energy_ratio": 0.272374438507998
+      },
+      "image_path": "data/cue_conflicts/pair0_dir1_accepted_20.png"
+    },
+    {
+      "pair_id": 0,
+      "direction": 1,
+      "content_class_idx": 33,
+      "content_class_name": "Sphynx",
+      "style_class_idx": 27,
+      "style_class_name": "Russian Blue",
+      "content_dataset_index": 3528,
+      "style_dataset_index": 3184,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07478376477956772,
+        "edge_energy_ratio": 0.95566400515416
+      },
+      "image_path": "data/cue_conflicts/pair0_dir1_accepted_21.png"
+    },
+    {
+      "pair_id": 0,
+      "direction": 1,
+      "content_class_idx": 33,
+      "content_class_name": "Sphynx",
+      "style_class_idx": 27,
+      "style_class_name": "Russian Blue",
+      "content_dataset_index": 3491,
+      "style_dataset_index": 3217,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.06953635811805725,
+        "edge_energy_ratio": 0.1740455249617896
+      },
+      "image_path": "data/cue_conflicts/pair0_dir1_accepted_22.png"
+    },
+    {
+      "pair_id": 0,
+      "direction": 1,
+      "content_class_idx": 33,
+      "content_class_name": "Sphynx",
+      "style_class_idx": 27,
+      "style_class_name": "Russian Blue",
+      "content_dataset_index": 3522,
+      "style_dataset_index": 3227,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.05986437946557999,
+        "edge_energy_ratio": 1.4361111363297152
+      },
+      "image_path": "data/cue_conflicts/pair0_dir1_accepted_23.png"
+    },
+    {
+      "pair_id": 0,
+      "direction": 1,
+      "content_class_idx": 33,
+      "content_class_name": "Sphynx",
+      "style_class_idx": 27,
+      "style_class_name": "Russian Blue",
+      "content_dataset_index": 1679,
+      "style_dataset_index": 3182,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.05994824320077896,
+        "edge_energy_ratio": 0.736276863649939
+      },
+      "image_path": "data/cue_conflicts/pair0_dir1_accepted_24.png"
+    },
+    {
+      "pair_id": 1,
+      "direction": 0,
+      "content_class_idx": 4,
+      "content_class_name": "Beagle",
+      "style_class_idx": 34,
+      "style_class_name": "Staffordshire Bull Terrier",
+      "content_dataset_index": 2066,
+      "style_dataset_index": 1699,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07227854430675507,
+        "edge_energy_ratio": 1.4537262995220814
+      },
+      "image_path": "data/cue_conflicts/pair1_dir0_accepted_1.png"
+    },
+    {
+      "pair_id": 1,
+      "direction": 0,
+      "content_class_idx": 4,
+      "content_class_name": "Beagle",
+      "style_class_idx": 34,
+      "style_class_name": "Staffordshire Bull Terrier",
+      "content_dataset_index": 2072,
+      "style_dataset_index": 1740,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08556607365608215,
+        "edge_energy_ratio": 1.5380102487363756
+      },
+      "image_path": "data/cue_conflicts/pair1_dir0_accepted_2.png"
+    },
+    {
+      "pair_id": 1,
+      "direction": 0,
+      "content_class_idx": 4,
+      "content_class_name": "Beagle",
+      "style_class_idx": 34,
+      "style_class_name": "Staffordshire Bull Terrier",
+      "content_dataset_index": 212,
+      "style_dataset_index": 3571,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.09574233740568161,
+        "edge_energy_ratio": 0.4519375588234255
+      },
+      "image_path": "data/cue_conflicts/pair1_dir0_accepted_3.png"
+    },
+    {
+      "pair_id": 1,
+      "direction": 0,
+      "content_class_idx": 4,
+      "content_class_name": "Beagle",
+      "style_class_idx": 34,
+      "style_class_name": "Staffordshire Bull Terrier",
+      "content_dataset_index": 229,
+      "style_dataset_index": 3579,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.0748969167470932,
+        "edge_energy_ratio": 0.815629597162986
+      },
+      "image_path": "data/cue_conflicts/pair1_dir0_accepted_4.png"
+    },
+    {
+      "pair_id": 1,
+      "direction": 0,
+      "content_class_idx": 4,
+      "content_class_name": "Beagle",
+      "style_class_idx": 34,
+      "style_class_name": "Staffordshire Bull Terrier",
+      "content_dataset_index": 2086,
+      "style_dataset_index": 1717,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.09495439380407333,
+        "edge_energy_ratio": 1.6464542757832823
+      },
+      "image_path": "data/cue_conflicts/pair1_dir0_accepted_5.png"
+    },
+    {
+      "pair_id": 1,
+      "direction": 0,
+      "content_class_idx": 4,
+      "content_class_name": "Beagle",
+      "style_class_idx": 34,
+      "style_class_name": "Staffordshire Bull Terrier",
+      "content_dataset_index": 231,
+      "style_dataset_index": 3549,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08522952347993851,
+        "edge_energy_ratio": 0.22959630426373004
+      },
+      "image_path": "data/cue_conflicts/pair1_dir0_accepted_6.png"
+    },
+    {
+      "pair_id": 1,
+      "direction": 0,
+      "content_class_idx": 4,
+      "content_class_name": "Beagle",
+      "style_class_idx": 34,
+      "style_class_name": "Staffordshire Bull Terrier",
+      "content_dataset_index": 2070,
+      "style_dataset_index": 1698,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07478149235248566,
+        "edge_energy_ratio": 0.6155691251319421
+      },
+      "image_path": "data/cue_conflicts/pair1_dir0_accepted_7.png"
+    },
+    {
+      "pair_id": 1,
+      "direction": 0,
+      "content_class_idx": 4,
+      "content_class_name": "Beagle",
+      "style_class_idx": 34,
+      "style_class_name": "Staffordshire Bull Terrier",
+      "content_dataset_index": 2083,
+      "style_dataset_index": 1700,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08672625571489334,
+        "edge_energy_ratio": 0.6400662364846333
+      },
+      "image_path": "data/cue_conflicts/pair1_dir0_accepted_8.png"
+    },
+    {
+      "pair_id": 1,
+      "direction": 0,
+      "content_class_idx": 4,
+      "content_class_name": "Beagle",
+      "style_class_idx": 34,
+      "style_class_name": "Staffordshire Bull Terrier",
+      "content_dataset_index": 230,
+      "style_dataset_index": 3571,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.09033488482236862,
+        "edge_energy_ratio": 1.854024522656261
+      },
+      "image_path": "data/cue_conflicts/pair1_dir0_accepted_9.png"
+    },
+    {
+      "pair_id": 1,
+      "direction": 0,
+      "content_class_idx": 4,
+      "content_class_name": "Beagle",
+      "style_class_idx": 34,
+      "style_class_name": "Staffordshire Bull Terrier",
+      "content_dataset_index": 223,
+      "style_dataset_index": 3547,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.0905642881989479,
+        "edge_energy_ratio": 0.9907741285221645
+      },
+      "image_path": "data/cue_conflicts/pair1_dir0_accepted_10.png"
+    },
+    {
+      "pair_id": 1,
+      "direction": 0,
+      "content_class_idx": 4,
+      "content_class_name": "Beagle",
+      "style_class_idx": 34,
+      "style_class_name": "Staffordshire Bull Terrier",
+      "content_dataset_index": 2088,
+      "style_dataset_index": 3570,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08123113214969635,
+        "edge_energy_ratio": 0.4101999945257853
+      },
+      "image_path": "data/cue_conflicts/pair1_dir0_accepted_11.png"
+    },
+    {
+      "pair_id": 1,
+      "direction": 0,
+      "content_class_idx": 4,
+      "content_class_name": "Beagle",
+      "style_class_idx": 34,
+      "style_class_name": "Staffordshire Bull Terrier",
+      "content_dataset_index": 216,
+      "style_dataset_index": 1701,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08894584327936172,
+        "edge_energy_ratio": 0.5898849539914881
+      },
+      "image_path": "data/cue_conflicts/pair1_dir0_accepted_12.png"
+    },
+    {
+      "pair_id": 1,
+      "direction": 0,
+      "content_class_idx": 4,
+      "content_class_name": "Beagle",
+      "style_class_idx": 34,
+      "style_class_name": "Staffordshire Bull Terrier",
+      "content_dataset_index": 202,
+      "style_dataset_index": 3560,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07689900696277618,
+        "edge_energy_ratio": 0.8669034612275367
+      },
+      "image_path": "data/cue_conflicts/pair1_dir0_accepted_13.png"
+    },
+    {
+      "pair_id": 1,
+      "direction": 0,
+      "content_class_idx": 4,
+      "content_class_name": "Beagle",
+      "style_class_idx": 34,
+      "style_class_name": "Staffordshire Bull Terrier",
+      "content_dataset_index": 226,
+      "style_dataset_index": 1726,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07616235315799713,
+        "edge_energy_ratio": 0.3773847167616343
+      },
+      "image_path": "data/cue_conflicts/pair1_dir0_accepted_15.png"
+    },
+    {
+      "pair_id": 1,
+      "direction": 0,
+      "content_class_idx": 4,
+      "content_class_name": "Beagle",
+      "style_class_idx": 34,
+      "style_class_name": "Staffordshire Bull Terrier",
+      "content_dataset_index": 216,
+      "style_dataset_index": 1714,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.0887504518032074,
+        "edge_energy_ratio": 0.6463777294613455
+      },
+      "image_path": "data/cue_conflicts/pair1_dir0_accepted_16.png"
+    },
+    {
+      "pair_id": 1,
+      "direction": 0,
+      "content_class_idx": 4,
+      "content_class_name": "Beagle",
+      "style_class_idx": 34,
+      "style_class_name": "Staffordshire Bull Terrier",
+      "content_dataset_index": 2078,
+      "style_dataset_index": 3536,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.0802413746714592,
+        "edge_energy_ratio": 0.8293443216976242
+      },
+      "image_path": "data/cue_conflicts/pair1_dir0_accepted_17.png"
+    },
+    {
+      "pair_id": 1,
+      "direction": 0,
+      "content_class_idx": 4,
+      "content_class_name": "Beagle",
+      "style_class_idx": 34,
+      "style_class_name": "Staffordshire Bull Terrier",
+      "content_dataset_index": 2064,
+      "style_dataset_index": 3570,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.06696823239326477,
+        "edge_energy_ratio": 0.7332426518590445
+      },
+      "image_path": "data/cue_conflicts/pair1_dir0_accepted_18.png"
+    },
+    {
+      "pair_id": 1,
+      "direction": 0,
+      "content_class_idx": 4,
+      "content_class_name": "Beagle",
+      "style_class_idx": 34,
+      "style_class_name": "Staffordshire Bull Terrier",
+      "content_dataset_index": 238,
+      "style_dataset_index": 1743,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.10317077487707138,
+        "edge_energy_ratio": 0.6246769279608896
+      },
+      "image_path": "data/cue_conflicts/pair1_dir0_accepted_19.png"
+    },
+    {
+      "pair_id": 1,
+      "direction": 0,
+      "content_class_idx": 4,
+      "content_class_name": "Beagle",
+      "style_class_idx": 34,
+      "style_class_name": "Staffordshire Bull Terrier",
+      "content_dataset_index": 231,
+      "style_dataset_index": 1734,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.09424594789743423,
+        "edge_energy_ratio": 0.30351523382995466
+      },
+      "image_path": "data/cue_conflicts/pair1_dir0_accepted_21.png"
+    },
+    {
+      "pair_id": 1,
+      "direction": 0,
+      "content_class_idx": 4,
+      "content_class_name": "Beagle",
+      "style_class_idx": 34,
+      "style_class_name": "Staffordshire Bull Terrier",
+      "content_dataset_index": 2081,
+      "style_dataset_index": 1722,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.10232847929000854,
+        "edge_energy_ratio": 0.6748906952668503
+      },
+      "image_path": "data/cue_conflicts/pair1_dir0_accepted_22.png"
+    },
+    {
+      "pair_id": 1,
+      "direction": 0,
+      "content_class_idx": 4,
+      "content_class_name": "Beagle",
+      "style_class_idx": 34,
+      "style_class_name": "Staffordshire Bull Terrier",
+      "content_dataset_index": 2048,
+      "style_dataset_index": 3544,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08656871318817139,
+        "edge_energy_ratio": 0.44769207375456654
+      },
+      "image_path": "data/cue_conflicts/pair1_dir0_accepted_23.png"
+    },
+    {
+      "pair_id": 1,
+      "direction": 0,
+      "content_class_idx": 4,
+      "content_class_name": "Beagle",
+      "style_class_idx": 34,
+      "style_class_name": "Staffordshire Bull Terrier",
+      "content_dataset_index": 246,
+      "style_dataset_index": 1724,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.09456522017717361,
+        "edge_energy_ratio": 0.43746806198984606
+      },
+      "image_path": "data/cue_conflicts/pair1_dir0_accepted_24.png"
+    },
+    {
+      "pair_id": 1,
+      "direction": 0,
+      "content_class_idx": 4,
+      "content_class_name": "Beagle",
+      "style_class_idx": 34,
+      "style_class_name": "Staffordshire Bull Terrier",
+      "content_dataset_index": 2066,
+      "style_dataset_index": 1728,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.10044389963150024,
+        "edge_energy_ratio": 1.9190638752538485
+      },
+      "image_path": "data/cue_conflicts/pair1_dir0_accepted_25.png"
+    },
+    {
+      "pair_id": 1,
+      "direction": 0,
+      "content_class_idx": 4,
+      "content_class_name": "Beagle",
+      "style_class_idx": 34,
+      "style_class_name": "Staffordshire Bull Terrier",
+      "content_dataset_index": 215,
+      "style_dataset_index": 1732,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.09231587499380112,
+        "edge_energy_ratio": 0.2821914318109539
+      },
+      "image_path": "data/cue_conflicts/pair1_dir0_accepted_26.png"
+    },
+    {
+      "pair_id": 1,
+      "direction": 1,
+      "content_class_idx": 34,
+      "content_class_name": "Staffordshire Bull Terrier",
+      "style_class_idx": 4,
+      "style_class_name": "Beagle",
+      "content_dataset_index": 3534,
+      "style_dataset_index": 222,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.06517305970191956,
+        "edge_energy_ratio": 0.1879883174587222
+      },
+      "image_path": "data/cue_conflicts/pair1_dir1_accepted_1.png"
+    },
+    {
+      "pair_id": 1,
+      "direction": 1,
+      "content_class_idx": 34,
+      "content_class_name": "Staffordshire Bull Terrier",
+      "style_class_idx": 4,
+      "style_class_name": "Beagle",
+      "content_dataset_index": 3573,
+      "style_dataset_index": 235,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.06759491562843323,
+        "edge_energy_ratio": 0.40039630233099444
+      },
+      "image_path": "data/cue_conflicts/pair1_dir1_accepted_2.png"
+    },
+    {
+      "pair_id": 1,
+      "direction": 1,
+      "content_class_idx": 34,
+      "content_class_name": "Staffordshire Bull Terrier",
+      "style_class_idx": 4,
+      "style_class_name": "Beagle",
+      "content_dataset_index": 3562,
+      "style_dataset_index": 218,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.06657297909259796,
+        "edge_energy_ratio": 0.2480923035229853
+      },
+      "image_path": "data/cue_conflicts/pair1_dir1_accepted_3.png"
+    },
+    {
+      "pair_id": 1,
+      "direction": 1,
+      "content_class_idx": 34,
+      "content_class_name": "Staffordshire Bull Terrier",
+      "style_class_idx": 4,
+      "style_class_name": "Beagle",
+      "content_dataset_index": 3536,
+      "style_dataset_index": 2092,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08908736705780029,
+        "edge_energy_ratio": 1.1537749276696683
+      },
+      "image_path": "data/cue_conflicts/pair1_dir1_accepted_4.png"
+    },
+    {
+      "pair_id": 1,
+      "direction": 1,
+      "content_class_idx": 34,
+      "content_class_name": "Staffordshire Bull Terrier",
+      "style_class_idx": 4,
+      "style_class_name": "Beagle",
+      "content_dataset_index": 3542,
+      "style_dataset_index": 200,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.09023009985685349,
+        "edge_energy_ratio": 0.803151328075113
+      },
+      "image_path": "data/cue_conflicts/pair1_dir1_accepted_5.png"
+    },
+    {
+      "pair_id": 1,
+      "direction": 1,
+      "content_class_idx": 34,
+      "content_class_name": "Staffordshire Bull Terrier",
+      "style_class_idx": 4,
+      "style_class_name": "Beagle",
+      "content_dataset_index": 1745,
+      "style_dataset_index": 221,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07858266681432724,
+        "edge_energy_ratio": 0.8106881866263462
+      },
+      "image_path": "data/cue_conflicts/pair1_dir1_accepted_6.png"
+    },
+    {
+      "pair_id": 1,
+      "direction": 1,
+      "content_class_idx": 34,
+      "content_class_name": "Staffordshire Bull Terrier",
+      "style_class_idx": 4,
+      "style_class_name": "Beagle",
+      "content_dataset_index": 3574,
+      "style_dataset_index": 2092,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08919011801481247,
+        "edge_energy_ratio": 0.4175577781060191
+      },
+      "image_path": "data/cue_conflicts/pair1_dir1_accepted_7.png"
+    },
+    {
+      "pair_id": 1,
+      "direction": 1,
+      "content_class_idx": 34,
+      "content_class_name": "Staffordshire Bull Terrier",
+      "style_class_idx": 4,
+      "style_class_name": "Beagle",
+      "content_dataset_index": 1736,
+      "style_dataset_index": 221,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07852452993392944,
+        "edge_energy_ratio": 0.3408628546182531
+      },
+      "image_path": "data/cue_conflicts/pair1_dir1_accepted_8.png"
+    },
+    {
+      "pair_id": 1,
+      "direction": 1,
+      "content_class_idx": 34,
+      "content_class_name": "Staffordshire Bull Terrier",
+      "style_class_idx": 4,
+      "style_class_name": "Beagle",
+      "content_dataset_index": 1733,
+      "style_dataset_index": 2060,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07761847227811813,
+        "edge_energy_ratio": 0.6917661344500202
+      },
+      "image_path": "data/cue_conflicts/pair1_dir1_accepted_9.png"
+    },
+    {
+      "pair_id": 1,
+      "direction": 1,
+      "content_class_idx": 34,
+      "content_class_name": "Staffordshire Bull Terrier",
+      "style_class_idx": 4,
+      "style_class_name": "Beagle",
+      "content_dataset_index": 3570,
+      "style_dataset_index": 209,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.09275233745574951,
+        "edge_energy_ratio": 0.4838208426846366
+      },
+      "image_path": "data/cue_conflicts/pair1_dir1_accepted_10.png"
+    },
+    {
+      "pair_id": 1,
+      "direction": 1,
+      "content_class_idx": 34,
+      "content_class_name": "Staffordshire Bull Terrier",
+      "style_class_idx": 4,
+      "style_class_name": "Beagle",
+      "content_dataset_index": 1704,
+      "style_dataset_index": 2079,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.06713314354419708,
+        "edge_energy_ratio": 0.5526969875162677
+      },
+      "image_path": "data/cue_conflicts/pair1_dir1_accepted_11.png"
+    },
+    {
+      "pair_id": 1,
+      "direction": 1,
+      "content_class_idx": 34,
+      "content_class_name": "Staffordshire Bull Terrier",
+      "style_class_idx": 4,
+      "style_class_name": "Beagle",
+      "content_dataset_index": 1716,
+      "style_dataset_index": 2061,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08618135005235672,
+        "edge_energy_ratio": 0.4260989027198941
+      },
+      "image_path": "data/cue_conflicts/pair1_dir1_accepted_12.png"
+    },
+    {
+      "pair_id": 1,
+      "direction": 1,
+      "content_class_idx": 34,
+      "content_class_name": "Staffordshire Bull Terrier",
+      "style_class_idx": 4,
+      "style_class_name": "Beagle",
+      "content_dataset_index": 3564,
+      "style_dataset_index": 223,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07082555443048477,
+        "edge_energy_ratio": 0.20973856876392233
+      },
+      "image_path": "data/cue_conflicts/pair1_dir1_accepted_13.png"
+    },
+    {
+      "pair_id": 1,
+      "direction": 1,
+      "content_class_idx": 34,
+      "content_class_name": "Staffordshire Bull Terrier",
+      "style_class_idx": 4,
+      "style_class_name": "Beagle",
+      "content_dataset_index": 3566,
+      "style_dataset_index": 2059,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08185423165559769,
+        "edge_energy_ratio": 0.5061974356888412
+      },
+      "image_path": "data/cue_conflicts/pair1_dir1_accepted_14.png"
+    },
+    {
+      "pair_id": 1,
+      "direction": 1,
+      "content_class_idx": 34,
+      "content_class_name": "Staffordshire Bull Terrier",
+      "style_class_idx": 4,
+      "style_class_name": "Beagle",
+      "content_dataset_index": 1701,
+      "style_dataset_index": 201,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07911568880081177,
+        "edge_energy_ratio": 0.2900171497784122
+      },
+      "image_path": "data/cue_conflicts/pair1_dir1_accepted_15.png"
+    },
+    {
+      "pair_id": 1,
+      "direction": 1,
+      "content_class_idx": 34,
+      "content_class_name": "Staffordshire Bull Terrier",
+      "style_class_idx": 4,
+      "style_class_name": "Beagle",
+      "content_dataset_index": 1744,
+      "style_dataset_index": 226,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.09887275099754333,
+        "edge_energy_ratio": 0.8330150638630338
+      },
+      "image_path": "data/cue_conflicts/pair1_dir1_accepted_16.png"
+    },
+    {
+      "pair_id": 1,
+      "direction": 1,
+      "content_class_idx": 34,
+      "content_class_name": "Staffordshire Bull Terrier",
+      "style_class_idx": 4,
+      "style_class_name": "Beagle",
+      "content_dataset_index": 3556,
+      "style_dataset_index": 233,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08168350905179977,
+        "edge_energy_ratio": 0.2567240368002735
+      },
+      "image_path": "data/cue_conflicts/pair1_dir1_accepted_17.png"
+    },
+    {
+      "pair_id": 1,
+      "direction": 1,
+      "content_class_idx": 34,
+      "content_class_name": "Staffordshire Bull Terrier",
+      "style_class_idx": 4,
+      "style_class_name": "Beagle",
+      "content_dataset_index": 1707,
+      "style_dataset_index": 2051,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07850073277950287,
+        "edge_energy_ratio": 0.43603138863804003
+      },
+      "image_path": "data/cue_conflicts/pair1_dir1_accepted_19.png"
+    },
+    {
+      "pair_id": 1,
+      "direction": 1,
+      "content_class_idx": 34,
+      "content_class_name": "Staffordshire Bull Terrier",
+      "style_class_idx": 4,
+      "style_class_name": "Beagle",
+      "content_dataset_index": 3573,
+      "style_dataset_index": 2060,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07913607358932495,
+        "edge_energy_ratio": 0.4982657776790859
+      },
+      "image_path": "data/cue_conflicts/pair1_dir1_accepted_20.png"
+    },
+    {
+      "pair_id": 1,
+      "direction": 1,
+      "content_class_idx": 34,
+      "content_class_name": "Staffordshire Bull Terrier",
+      "style_class_idx": 4,
+      "style_class_name": "Beagle",
+      "content_dataset_index": 1744,
+      "style_dataset_index": 2067,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08065105229616165,
+        "edge_energy_ratio": 0.554951137631708
+      },
+      "image_path": "data/cue_conflicts/pair1_dir1_accepted_21.png"
+    },
+    {
+      "pair_id": 1,
+      "direction": 1,
+      "content_class_idx": 34,
+      "content_class_name": "Staffordshire Bull Terrier",
+      "style_class_idx": 4,
+      "style_class_name": "Beagle",
+      "content_dataset_index": 1736,
+      "style_dataset_index": 243,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.10826389491558075,
+        "edge_energy_ratio": 0.4682473929179886
+      },
+      "image_path": "data/cue_conflicts/pair1_dir1_accepted_22.png"
+    },
+    {
+      "pair_id": 1,
+      "direction": 1,
+      "content_class_idx": 34,
+      "content_class_name": "Staffordshire Bull Terrier",
+      "style_class_idx": 4,
+      "style_class_name": "Beagle",
+      "content_dataset_index": 1701,
+      "style_dataset_index": 242,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.09720213711261749,
+        "edge_energy_ratio": 0.33950319886380687
+      },
+      "image_path": "data/cue_conflicts/pair1_dir1_accepted_23.png"
+    },
+    {
+      "pair_id": 1,
+      "direction": 1,
+      "content_class_idx": 34,
+      "content_class_name": "Staffordshire Bull Terrier",
+      "style_class_idx": 4,
+      "style_class_name": "Beagle",
+      "content_dataset_index": 3541,
+      "style_dataset_index": 221,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.0818626806139946,
+        "edge_energy_ratio": 0.30303518278867714
+      },
+      "image_path": "data/cue_conflicts/pair1_dir1_accepted_24.png"
+    },
+    {
+      "pair_id": 1,
+      "direction": 1,
+      "content_class_idx": 34,
+      "content_class_name": "Staffordshire Bull Terrier",
+      "style_class_idx": 4,
+      "style_class_name": "Beagle",
+      "content_dataset_index": 3562,
+      "style_dataset_index": 2074,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.06505962461233139,
+        "edge_energy_ratio": 0.1838486766539691
+      },
+      "image_path": "data/cue_conflicts/pair1_dir1_accepted_25.png"
+    },
+    {
+      "pair_id": 2,
+      "direction": 0,
+      "content_class_idx": 3,
+      "content_class_name": "Basset Hound",
+      "style_class_idx": 19,
+      "style_class_name": "Leonberger",
+      "content_dataset_index": 2017,
+      "style_dataset_index": 965,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08345846831798553,
+        "edge_energy_ratio": 0.6938792271374662
+      },
+      "image_path": "data/cue_conflicts/pair2_dir0_accepted_1.png"
+    },
+    {
+      "pair_id": 2,
+      "direction": 0,
+      "content_class_idx": 3,
+      "content_class_name": "Basset Hound",
+      "style_class_idx": 19,
+      "style_class_name": "Leonberger",
+      "content_dataset_index": 167,
+      "style_dataset_index": 2822,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07385408878326416,
+        "edge_energy_ratio": 0.306115987950223
+      },
+      "image_path": "data/cue_conflicts/pair2_dir0_accepted_2.png"
+    },
+    {
+      "pair_id": 2,
+      "direction": 0,
+      "content_class_idx": 3,
+      "content_class_name": "Basset Hound",
+      "style_class_idx": 19,
+      "style_class_name": "Leonberger",
+      "content_dataset_index": 161,
+      "style_dataset_index": 949,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08654414862394333,
+        "edge_energy_ratio": 0.5626366971429602
+      },
+      "image_path": "data/cue_conflicts/pair2_dir0_accepted_3.png"
+    },
+    {
+      "pair_id": 2,
+      "direction": 0,
+      "content_class_idx": 3,
+      "content_class_name": "Basset Hound",
+      "style_class_idx": 19,
+      "style_class_name": "Leonberger",
+      "content_dataset_index": 186,
+      "style_dataset_index": 951,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.0879865363240242,
+        "edge_energy_ratio": 0.3975219124099569
+      },
+      "image_path": "data/cue_conflicts/pair2_dir0_accepted_4.png"
+    },
+    {
+      "pair_id": 2,
+      "direction": 0,
+      "content_class_idx": 3,
+      "content_class_name": "Basset Hound",
+      "style_class_idx": 19,
+      "style_class_name": "Leonberger",
+      "content_dataset_index": 2008,
+      "style_dataset_index": 946,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07347948104143143,
+        "edge_energy_ratio": 1.041039274005381
+      },
+      "image_path": "data/cue_conflicts/pair2_dir0_accepted_5.png"
+    },
+    {
+      "pair_id": 2,
+      "direction": 0,
+      "content_class_idx": 3,
+      "content_class_name": "Basset Hound",
+      "style_class_idx": 19,
+      "style_class_name": "Leonberger",
+      "content_dataset_index": 186,
+      "style_dataset_index": 969,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07304424792528152,
+        "edge_energy_ratio": 0.3395122886008965
+      },
+      "image_path": "data/cue_conflicts/pair2_dir0_accepted_6.png"
+    },
+    {
+      "pair_id": 2,
+      "direction": 0,
+      "content_class_idx": 3,
+      "content_class_name": "Basset Hound",
+      "style_class_idx": 19,
+      "style_class_name": "Leonberger",
+      "content_dataset_index": 2006,
+      "style_dataset_index": 969,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07231233268976212,
+        "edge_energy_ratio": 0.3257683795262488
+      },
+      "image_path": "data/cue_conflicts/pair2_dir0_accepted_7.png"
+    },
+    {
+      "pair_id": 2,
+      "direction": 0,
+      "content_class_idx": 3,
+      "content_class_name": "Basset Hound",
+      "style_class_idx": 19,
+      "style_class_name": "Leonberger",
+      "content_dataset_index": 2013,
+      "style_dataset_index": 2807,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07935384660959244,
+        "edge_energy_ratio": 0.35418327308940273
+      },
+      "image_path": "data/cue_conflicts/pair2_dir0_accepted_8.png"
+    },
+    {
+      "pair_id": 2,
+      "direction": 0,
+      "content_class_idx": 3,
+      "content_class_name": "Basset Hound",
+      "style_class_idx": 19,
+      "style_class_name": "Leonberger",
+      "content_dataset_index": 2027,
+      "style_dataset_index": 951,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08668555319309235,
+        "edge_energy_ratio": 1.7744886384095964
+      },
+      "image_path": "data/cue_conflicts/pair2_dir0_accepted_9.png"
+    },
+    {
+      "pair_id": 2,
+      "direction": 0,
+      "content_class_idx": 3,
+      "content_class_name": "Basset Hound",
+      "style_class_idx": 19,
+      "style_class_name": "Leonberger",
+      "content_dataset_index": 158,
+      "style_dataset_index": 2785,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07966621965169907,
+        "edge_energy_ratio": 0.27809720721765857
+      },
+      "image_path": "data/cue_conflicts/pair2_dir0_accepted_10.png"
+    },
+    {
+      "pair_id": 2,
+      "direction": 0,
+      "content_class_idx": 3,
+      "content_class_name": "Basset Hound",
+      "style_class_idx": 19,
+      "style_class_name": "Leonberger",
+      "content_dataset_index": 2007,
+      "style_dataset_index": 946,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07129517197608948,
+        "edge_energy_ratio": 1.0324879689623494
+      },
+      "image_path": "data/cue_conflicts/pair2_dir0_accepted_11.png"
+    },
+    {
+      "pair_id": 2,
+      "direction": 0,
+      "content_class_idx": 3,
+      "content_class_name": "Basset Hound",
+      "style_class_idx": 19,
+      "style_class_name": "Leonberger",
+      "content_dataset_index": 178,
+      "style_dataset_index": 987,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.09858202189207077,
+        "edge_energy_ratio": 0.3110853868182118
+      },
+      "image_path": "data/cue_conflicts/pair2_dir0_accepted_12.png"
+    },
+    {
+      "pair_id": 2,
+      "direction": 0,
+      "content_class_idx": 3,
+      "content_class_name": "Basset Hound",
+      "style_class_idx": 19,
+      "style_class_name": "Leonberger",
+      "content_dataset_index": 2025,
+      "style_dataset_index": 2801,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.09132284671068192,
+        "edge_energy_ratio": 0.8726479381018901
+      },
+      "image_path": "data/cue_conflicts/pair2_dir0_accepted_13.png"
+    },
+    {
+      "pair_id": 2,
+      "direction": 0,
+      "content_class_idx": 3,
+      "content_class_name": "Basset Hound",
+      "style_class_idx": 19,
+      "style_class_name": "Leonberger",
+      "content_dataset_index": 2019,
+      "style_dataset_index": 975,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08831886947154999,
+        "edge_energy_ratio": 1.2253206687758451
+      },
+      "image_path": "data/cue_conflicts/pair2_dir0_accepted_14.png"
+    },
+    {
+      "pair_id": 2,
+      "direction": 0,
+      "content_class_idx": 3,
+      "content_class_name": "Basset Hound",
+      "style_class_idx": 19,
+      "style_class_name": "Leonberger",
+      "content_dataset_index": 154,
+      "style_dataset_index": 991,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08153210580348969,
+        "edge_energy_ratio": 0.2697846474856874
+      },
+      "image_path": "data/cue_conflicts/pair2_dir0_accepted_15.png"
+    },
+    {
+      "pair_id": 2,
+      "direction": 0,
+      "content_class_idx": 3,
+      "content_class_name": "Basset Hound",
+      "style_class_idx": 19,
+      "style_class_name": "Leonberger",
+      "content_dataset_index": 2036,
+      "style_dataset_index": 2813,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07701102644205093,
+        "edge_energy_ratio": 0.7631811990993317
+      },
+      "image_path": "data/cue_conflicts/pair2_dir0_accepted_16.png"
+    },
+    {
+      "pair_id": 2,
+      "direction": 0,
+      "content_class_idx": 3,
+      "content_class_name": "Basset Hound",
+      "style_class_idx": 19,
+      "style_class_name": "Leonberger",
+      "content_dataset_index": 2010,
+      "style_dataset_index": 2799,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.058745257556438446,
+        "edge_energy_ratio": 0.22153893092275767
+      },
+      "image_path": "data/cue_conflicts/pair2_dir0_accepted_17.png"
+    },
+    {
+      "pair_id": 2,
+      "direction": 0,
+      "content_class_idx": 3,
+      "content_class_name": "Basset Hound",
+      "style_class_idx": 19,
+      "style_class_name": "Leonberger",
+      "content_dataset_index": 2031,
+      "style_dataset_index": 2817,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.0831247866153717,
+        "edge_energy_ratio": 0.5310828859224064
+      },
+      "image_path": "data/cue_conflicts/pair2_dir0_accepted_18.png"
+    },
+    {
+      "pair_id": 2,
+      "direction": 0,
+      "content_class_idx": 3,
+      "content_class_name": "Basset Hound",
+      "style_class_idx": 19,
+      "style_class_name": "Leonberger",
+      "content_dataset_index": 2009,
+      "style_dataset_index": 2800,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07102087140083313,
+        "edge_energy_ratio": 0.559305332269006
+      },
+      "image_path": "data/cue_conflicts/pair2_dir0_accepted_19.png"
+    },
+    {
+      "pair_id": 2,
+      "direction": 0,
+      "content_class_idx": 3,
+      "content_class_name": "Basset Hound",
+      "style_class_idx": 19,
+      "style_class_name": "Leonberger",
+      "content_dataset_index": 2025,
+      "style_dataset_index": 970,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08456698060035706,
+        "edge_energy_ratio": 0.805017001942405
+      },
+      "image_path": "data/cue_conflicts/pair2_dir0_accepted_20.png"
+    },
+    {
+      "pair_id": 2,
+      "direction": 0,
+      "content_class_idx": 3,
+      "content_class_name": "Basset Hound",
+      "style_class_idx": 19,
+      "style_class_name": "Leonberger",
+      "content_dataset_index": 169,
+      "style_dataset_index": 960,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.09078551083803177,
+        "edge_energy_ratio": 0.8871441296196758
+      },
+      "image_path": "data/cue_conflicts/pair2_dir0_accepted_21.png"
+    },
+    {
+      "pair_id": 2,
+      "direction": 0,
+      "content_class_idx": 3,
+      "content_class_name": "Basset Hound",
+      "style_class_idx": 19,
+      "style_class_name": "Leonberger",
+      "content_dataset_index": 2026,
+      "style_dataset_index": 2805,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07111595571041107,
+        "edge_energy_ratio": 0.7833822638952388
+      },
+      "image_path": "data/cue_conflicts/pair2_dir0_accepted_22.png"
+    },
+    {
+      "pair_id": 2,
+      "direction": 0,
+      "content_class_idx": 3,
+      "content_class_name": "Basset Hound",
+      "style_class_idx": 19,
+      "style_class_name": "Leonberger",
+      "content_dataset_index": 2039,
+      "style_dataset_index": 982,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.09991957247257233,
+        "edge_energy_ratio": 0.9676692431980907
+      },
+      "image_path": "data/cue_conflicts/pair2_dir0_accepted_23.png"
+    },
+    {
+      "pair_id": 2,
+      "direction": 0,
+      "content_class_idx": 3,
+      "content_class_name": "Basset Hound",
+      "style_class_idx": 19,
+      "style_class_name": "Leonberger",
+      "content_dataset_index": 2007,
+      "style_dataset_index": 986,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08816171437501907,
+        "edge_energy_ratio": 1.1195492464887722
+      },
+      "image_path": "data/cue_conflicts/pair2_dir0_accepted_24.png"
+    },
+    {
+      "pair_id": 2,
+      "direction": 1,
+      "content_class_idx": 19,
+      "content_class_name": "Leonberger",
+      "style_class_idx": 3,
+      "style_class_name": "Basset Hound",
+      "content_dataset_index": 993,
+      "style_dataset_index": 2015,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08155689388513565,
+        "edge_energy_ratio": 0.5095076551444725
+      },
+      "image_path": "data/cue_conflicts/pair2_dir1_accepted_1.png"
+    },
+    {
+      "pair_id": 2,
+      "direction": 1,
+      "content_class_idx": 19,
+      "content_class_name": "Leonberger",
+      "style_class_idx": 3,
+      "style_class_name": "Basset Hound",
+      "content_dataset_index": 2800,
+      "style_dataset_index": 2042,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.09526272118091583,
+        "edge_energy_ratio": 0.43781927908797835
+      },
+      "image_path": "data/cue_conflicts/pair2_dir1_accepted_2.png"
+    },
+    {
+      "pair_id": 2,
+      "direction": 1,
+      "content_class_idx": 19,
+      "content_class_name": "Leonberger",
+      "style_class_idx": 3,
+      "style_class_name": "Basset Hound",
+      "content_dataset_index": 2834,
+      "style_dataset_index": 186,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08945123851299286,
+        "edge_energy_ratio": 0.3737937182918321
+      },
+      "image_path": "data/cue_conflicts/pair2_dir1_accepted_3.png"
+    },
+    {
+      "pair_id": 2,
+      "direction": 1,
+      "content_class_idx": 19,
+      "content_class_name": "Leonberger",
+      "style_class_idx": 3,
+      "style_class_name": "Basset Hound",
+      "content_dataset_index": 2832,
+      "style_dataset_index": 174,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.09124168008565903,
+        "edge_energy_ratio": 0.4250436198838694
+      },
+      "image_path": "data/cue_conflicts/pair2_dir1_accepted_4.png"
+    },
+    {
+      "pair_id": 2,
+      "direction": 1,
+      "content_class_idx": 19,
+      "content_class_name": "Leonberger",
+      "style_class_idx": 3,
+      "style_class_name": "Basset Hound",
+      "content_dataset_index": 980,
+      "style_dataset_index": 194,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.10038473457098007,
+        "edge_energy_ratio": 0.8088182836117312
+      },
+      "image_path": "data/cue_conflicts/pair2_dir1_accepted_5.png"
+    },
+    {
+      "pair_id": 2,
+      "direction": 1,
+      "content_class_idx": 19,
+      "content_class_name": "Leonberger",
+      "style_class_idx": 3,
+      "style_class_name": "Basset Hound",
+      "content_dataset_index": 949,
+      "style_dataset_index": 1999,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.0850197896361351,
+        "edge_energy_ratio": 0.588722411178793
+      },
+      "image_path": "data/cue_conflicts/pair2_dir1_accepted_6.png"
+    },
+    {
+      "pair_id": 2,
+      "direction": 1,
+      "content_class_idx": 19,
+      "content_class_name": "Leonberger",
+      "style_class_idx": 3,
+      "style_class_name": "Basset Hound",
+      "content_dataset_index": 2833,
+      "style_dataset_index": 176,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.0820721760392189,
+        "edge_energy_ratio": 0.2016235939039131
+      },
+      "image_path": "data/cue_conflicts/pair2_dir1_accepted_7.png"
+    },
+    {
+      "pair_id": 2,
+      "direction": 1,
+      "content_class_idx": 19,
+      "content_class_name": "Leonberger",
+      "style_class_idx": 3,
+      "style_class_name": "Basset Hound",
+      "content_dataset_index": 952,
+      "style_dataset_index": 188,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08614742010831833,
+        "edge_energy_ratio": 0.46513697195771975
+      },
+      "image_path": "data/cue_conflicts/pair2_dir1_accepted_8.png"
+    },
+    {
+      "pair_id": 2,
+      "direction": 1,
+      "content_class_idx": 19,
+      "content_class_name": "Leonberger",
+      "style_class_idx": 3,
+      "style_class_name": "Basset Hound",
+      "content_dataset_index": 957,
+      "style_dataset_index": 181,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.09341222047805786,
+        "edge_energy_ratio": 0.7412951570536688
+      },
+      "image_path": "data/cue_conflicts/pair2_dir1_accepted_9.png"
+    },
+    {
+      "pair_id": 2,
+      "direction": 1,
+      "content_class_idx": 19,
+      "content_class_name": "Leonberger",
+      "style_class_idx": 3,
+      "style_class_name": "Basset Hound",
+      "content_dataset_index": 956,
+      "style_dataset_index": 2028,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08743104338645935,
+        "edge_energy_ratio": 0.36075889935626754
+      },
+      "image_path": "data/cue_conflicts/pair2_dir1_accepted_11.png"
+    },
+    {
+      "pair_id": 2,
+      "direction": 1,
+      "content_class_idx": 19,
+      "content_class_name": "Leonberger",
+      "style_class_idx": 3,
+      "style_class_name": "Basset Hound",
+      "content_dataset_index": 952,
+      "style_dataset_index": 2026,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08165974169969559,
+        "edge_energy_ratio": 0.5005569512955901
+      },
+      "image_path": "data/cue_conflicts/pair2_dir1_accepted_12.png"
+    },
+    {
+      "pair_id": 2,
+      "direction": 1,
+      "content_class_idx": 19,
+      "content_class_name": "Leonberger",
+      "style_class_idx": 3,
+      "style_class_name": "Basset Hound",
+      "content_dataset_index": 981,
+      "style_dataset_index": 198,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.0749039575457573,
+        "edge_energy_ratio": 0.8295089322700634
+      },
+      "image_path": "data/cue_conflicts/pair2_dir1_accepted_13.png"
+    },
+    {
+      "pair_id": 2,
+      "direction": 1,
+      "content_class_idx": 19,
+      "content_class_name": "Leonberger",
+      "style_class_idx": 3,
+      "style_class_name": "Basset Hound",
+      "content_dataset_index": 2798,
+      "style_dataset_index": 2007,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08599017560482025,
+        "edge_energy_ratio": 0.8043906754345803
+      },
+      "image_path": "data/cue_conflicts/pair2_dir1_accepted_14.png"
+    },
+    {
+      "pair_id": 2,
+      "direction": 1,
+      "content_class_idx": 19,
+      "content_class_name": "Leonberger",
+      "style_class_idx": 3,
+      "style_class_name": "Basset Hound",
+      "content_dataset_index": 964,
+      "style_dataset_index": 2043,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07767461240291595,
+        "edge_energy_ratio": 1.3295466441652715
+      },
+      "image_path": "data/cue_conflicts/pair2_dir1_accepted_15.png"
+    },
+    {
+      "pair_id": 2,
+      "direction": 1,
+      "content_class_idx": 19,
+      "content_class_name": "Leonberger",
+      "style_class_idx": 3,
+      "style_class_name": "Basset Hound",
+      "content_dataset_index": 2796,
+      "style_dataset_index": 178,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.0853191614151001,
+        "edge_energy_ratio": 0.38628274893932907
+      },
+      "image_path": "data/cue_conflicts/pair2_dir1_accepted_16.png"
+    },
+    {
+      "pair_id": 2,
+      "direction": 1,
+      "content_class_idx": 19,
+      "content_class_name": "Leonberger",
+      "style_class_idx": 3,
+      "style_class_name": "Basset Hound",
+      "content_dataset_index": 965,
+      "style_dataset_index": 185,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.0959237590432167,
+        "edge_energy_ratio": 0.6598589809636483
+      },
+      "image_path": "data/cue_conflicts/pair2_dir1_accepted_17.png"
+    },
+    {
+      "pair_id": 2,
+      "direction": 1,
+      "content_class_idx": 19,
+      "content_class_name": "Leonberger",
+      "style_class_idx": 3,
+      "style_class_name": "Basset Hound",
+      "content_dataset_index": 2809,
+      "style_dataset_index": 2003,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08486948162317276,
+        "edge_energy_ratio": 1.5380815619559525
+      },
+      "image_path": "data/cue_conflicts/pair2_dir1_accepted_18.png"
+    },
+    {
+      "pair_id": 2,
+      "direction": 1,
+      "content_class_idx": 19,
+      "content_class_name": "Leonberger",
+      "style_class_idx": 3,
+      "style_class_name": "Basset Hound",
+      "content_dataset_index": 2787,
+      "style_dataset_index": 2005,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07739496231079102,
+        "edge_energy_ratio": 0.1996932089376408
+      },
+      "image_path": "data/cue_conflicts/pair2_dir1_accepted_19.png"
+    },
+    {
+      "pair_id": 2,
+      "direction": 1,
+      "content_class_idx": 19,
+      "content_class_name": "Leonberger",
+      "style_class_idx": 3,
+      "style_class_name": "Basset Hound",
+      "content_dataset_index": 978,
+      "style_dataset_index": 2031,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.09250625967979431,
+        "edge_energy_ratio": 0.5845630111805598
+      },
+      "image_path": "data/cue_conflicts/pair2_dir1_accepted_20.png"
+    },
+    {
+      "pair_id": 2,
+      "direction": 1,
+      "content_class_idx": 19,
+      "content_class_name": "Leonberger",
+      "style_class_idx": 3,
+      "style_class_name": "Basset Hound",
+      "content_dataset_index": 955,
+      "style_dataset_index": 2037,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.09661339223384857,
+        "edge_energy_ratio": 0.5770080654138955
+      },
+      "image_path": "data/cue_conflicts/pair2_dir1_accepted_21.png"
+    },
+    {
+      "pair_id": 2,
+      "direction": 1,
+      "content_class_idx": 19,
+      "content_class_name": "Leonberger",
+      "style_class_idx": 3,
+      "style_class_name": "Basset Hound",
+      "content_dataset_index": 957,
+      "style_dataset_index": 192,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08099300414323807,
+        "edge_energy_ratio": 0.5860526517796569
+      },
+      "image_path": "data/cue_conflicts/pair2_dir1_accepted_22.png"
+    },
+    {
+      "pair_id": 2,
+      "direction": 1,
+      "content_class_idx": 19,
+      "content_class_name": "Leonberger",
+      "style_class_idx": 3,
+      "style_class_name": "Basset Hound",
+      "content_dataset_index": 975,
+      "style_dataset_index": 2030,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.09104302525520325,
+        "edge_energy_ratio": 0.8073289702743147
+      },
+      "image_path": "data/cue_conflicts/pair2_dir1_accepted_23.png"
+    },
+    {
+      "pair_id": 2,
+      "direction": 1,
+      "content_class_idx": 19,
+      "content_class_name": "Leonberger",
+      "style_class_idx": 3,
+      "style_class_name": "Basset Hound",
+      "content_dataset_index": 2806,
+      "style_dataset_index": 2025,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08643554896116257,
+        "edge_energy_ratio": 0.4216068037447317
+      },
+      "image_path": "data/cue_conflicts/pair2_dir1_accepted_24.png"
+    },
+    {
+      "pair_id": 2,
+      "direction": 1,
+      "content_class_idx": 19,
+      "content_class_name": "Leonberger",
+      "style_class_idx": 3,
+      "style_class_name": "Basset Hound",
+      "content_dataset_index": 975,
+      "style_dataset_index": 2032,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08736225962638855,
+        "edge_energy_ratio": 0.8599959172767588
+      },
+      "image_path": "data/cue_conflicts/pair2_dir1_accepted_25.png"
+    },
+    {
+      "pair_id": 3,
+      "direction": 0,
+      "content_class_idx": 30,
+      "content_class_name": "Scottish Terrier",
+      "style_class_idx": 36,
+      "style_class_name": "Yorkshire Terrier",
+      "content_dataset_index": 1517,
+      "style_dataset_index": 1843,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.0790945366024971,
+        "edge_energy_ratio": 0.40563433129691695
+      },
+      "image_path": "data/cue_conflicts/pair3_dir0_accepted_2.png"
+    },
+    {
+      "pair_id": 3,
+      "direction": 0,
+      "content_class_idx": 30,
+      "content_class_name": "Scottish Terrier",
+      "style_class_idx": 36,
+      "style_class_name": "Yorkshire Terrier",
+      "content_dataset_index": 1511,
+      "style_dataset_index": 1801,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.0756048709154129,
+        "edge_energy_ratio": 0.39395122691686185
+      },
+      "image_path": "data/cue_conflicts/pair3_dir0_accepted_3.png"
+    },
+    {
+      "pair_id": 3,
+      "direction": 0,
+      "content_class_idx": 30,
+      "content_class_name": "Scottish Terrier",
+      "style_class_idx": 36,
+      "style_class_name": "Yorkshire Terrier",
+      "content_dataset_index": 3349,
+      "style_dataset_index": 3643,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08495111763477325,
+        "edge_energy_ratio": 0.5449138076175605
+      },
+      "image_path": "data/cue_conflicts/pair3_dir0_accepted_4.png"
+    },
+    {
+      "pair_id": 3,
+      "direction": 0,
+      "content_class_idx": 30,
+      "content_class_name": "Scottish Terrier",
+      "style_class_idx": 36,
+      "style_class_name": "Yorkshire Terrier",
+      "content_dataset_index": 3339,
+      "style_dataset_index": 3640,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.05642789974808693,
+        "edge_energy_ratio": 0.5232522970500562
+      },
+      "image_path": "data/cue_conflicts/pair3_dir0_accepted_5.png"
+    },
+    {
+      "pair_id": 3,
+      "direction": 0,
+      "content_class_idx": 30,
+      "content_class_name": "Scottish Terrier",
+      "style_class_idx": 36,
+      "style_class_name": "Yorkshire Terrier",
+      "content_dataset_index": 3355,
+      "style_dataset_index": 1798,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08885183930397034,
+        "edge_energy_ratio": 0.38260016663635915
+      },
+      "image_path": "data/cue_conflicts/pair3_dir0_accepted_6.png"
+    },
+    {
+      "pair_id": 3,
+      "direction": 0,
+      "content_class_idx": 30,
+      "content_class_name": "Scottish Terrier",
+      "style_class_idx": 36,
+      "style_class_name": "Yorkshire Terrier",
+      "content_dataset_index": 1505,
+      "style_dataset_index": 3637,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.06713972985744476,
+        "edge_energy_ratio": 0.36625815871615097
+      },
+      "image_path": "data/cue_conflicts/pair3_dir0_accepted_7.png"
+    },
+    {
+      "pair_id": 3,
+      "direction": 0,
+      "content_class_idx": 30,
+      "content_class_name": "Scottish Terrier",
+      "style_class_idx": 36,
+      "style_class_name": "Yorkshire Terrier",
+      "content_dataset_index": 1529,
+      "style_dataset_index": 3637,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07674945890903473,
+        "edge_energy_ratio": 0.6836666097321011
+      },
+      "image_path": "data/cue_conflicts/pair3_dir0_accepted_8.png"
+    },
+    {
+      "pair_id": 3,
+      "direction": 0,
+      "content_class_idx": 30,
+      "content_class_name": "Scottish Terrier",
+      "style_class_idx": 36,
+      "style_class_name": "Yorkshire Terrier",
+      "content_dataset_index": 1533,
+      "style_dataset_index": 1813,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.06901483982801437,
+        "edge_energy_ratio": 0.577646203486552
+      },
+      "image_path": "data/cue_conflicts/pair3_dir0_accepted_9.png"
+    },
+    {
+      "pair_id": 3,
+      "direction": 0,
+      "content_class_idx": 30,
+      "content_class_name": "Scottish Terrier",
+      "style_class_idx": 36,
+      "style_class_name": "Yorkshire Terrier",
+      "content_dataset_index": 1540,
+      "style_dataset_index": 1825,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.0954718217253685,
+        "edge_energy_ratio": 0.41830878578594055
+      },
+      "image_path": "data/cue_conflicts/pair3_dir0_accepted_10.png"
+    },
+    {
+      "pair_id": 3,
+      "direction": 0,
+      "content_class_idx": 30,
+      "content_class_name": "Scottish Terrier",
+      "style_class_idx": 36,
+      "style_class_name": "Yorkshire Terrier",
+      "content_dataset_index": 1535,
+      "style_dataset_index": 3638,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07180729508399963,
+        "edge_energy_ratio": 0.6759435632754089
+      },
+      "image_path": "data/cue_conflicts/pair3_dir0_accepted_11.png"
+    },
+    {
+      "pair_id": 3,
+      "direction": 0,
+      "content_class_idx": 30,
+      "content_class_name": "Scottish Terrier",
+      "style_class_idx": 36,
+      "style_class_name": "Yorkshire Terrier",
+      "content_dataset_index": 3333,
+      "style_dataset_index": 1829,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08070783317089081,
+        "edge_energy_ratio": 0.34295444710570017
+      },
+      "image_path": "data/cue_conflicts/pair3_dir0_accepted_12.png"
+    },
+    {
+      "pair_id": 3,
+      "direction": 0,
+      "content_class_idx": 30,
+      "content_class_name": "Scottish Terrier",
+      "style_class_idx": 36,
+      "style_class_name": "Yorkshire Terrier",
+      "content_dataset_index": 3376,
+      "style_dataset_index": 1804,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.09843307733535767,
+        "edge_energy_ratio": 0.6406480104453997
+      },
+      "image_path": "data/cue_conflicts/pair3_dir0_accepted_13.png"
+    },
+    {
+      "pair_id": 3,
+      "direction": 0,
+      "content_class_idx": 30,
+      "content_class_name": "Scottish Terrier",
+      "style_class_idx": 36,
+      "style_class_name": "Yorkshire Terrier",
+      "content_dataset_index": 1500,
+      "style_dataset_index": 3634,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08270899206399918,
+        "edge_energy_ratio": 1.3037037020957185
+      },
+      "image_path": "data/cue_conflicts/pair3_dir0_accepted_14.png"
+    },
+    {
+      "pair_id": 3,
+      "direction": 0,
+      "content_class_idx": 30,
+      "content_class_name": "Scottish Terrier",
+      "style_class_idx": 36,
+      "style_class_name": "Yorkshire Terrier",
+      "content_dataset_index": 1505,
+      "style_dataset_index": 1801,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07497377693653107,
+        "edge_energy_ratio": 0.3825280736442755
+      },
+      "image_path": "data/cue_conflicts/pair3_dir0_accepted_15.png"
+    },
+    {
+      "pair_id": 3,
+      "direction": 0,
+      "content_class_idx": 30,
+      "content_class_name": "Scottish Terrier",
+      "style_class_idx": 36,
+      "style_class_name": "Yorkshire Terrier",
+      "content_dataset_index": 1509,
+      "style_dataset_index": 3640,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.06087120994925499,
+        "edge_energy_ratio": 0.29928175804223073
+      },
+      "image_path": "data/cue_conflicts/pair3_dir0_accepted_16.png"
+    },
+    {
+      "pair_id": 3,
+      "direction": 0,
+      "content_class_idx": 30,
+      "content_class_name": "Scottish Terrier",
+      "style_class_idx": 36,
+      "style_class_name": "Yorkshire Terrier",
+      "content_dataset_index": 3379,
+      "style_dataset_index": 1843,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07693909108638763,
+        "edge_energy_ratio": 0.31942213316948825
+      },
+      "image_path": "data/cue_conflicts/pair3_dir0_accepted_17.png"
+    },
+    {
+      "pair_id": 3,
+      "direction": 0,
+      "content_class_idx": 30,
+      "content_class_name": "Scottish Terrier",
+      "style_class_idx": 36,
+      "style_class_name": "Yorkshire Terrier",
+      "content_dataset_index": 1514,
+      "style_dataset_index": 3630,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.06007684767246246,
+        "edge_energy_ratio": 0.47778185176218974
+      },
+      "image_path": "data/cue_conflicts/pair3_dir0_accepted_18.png"
+    },
+    {
+      "pair_id": 3,
+      "direction": 0,
+      "content_class_idx": 30,
+      "content_class_name": "Scottish Terrier",
+      "style_class_idx": 36,
+      "style_class_name": "Yorkshire Terrier",
+      "content_dataset_index": 1515,
+      "style_dataset_index": 1806,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.09952324628829956,
+        "edge_energy_ratio": 0.3815985206552509
+      },
+      "image_path": "data/cue_conflicts/pair3_dir0_accepted_19.png"
+    },
+    {
+      "pair_id": 3,
+      "direction": 0,
+      "content_class_idx": 30,
+      "content_class_name": "Scottish Terrier",
+      "style_class_idx": 36,
+      "style_class_name": "Yorkshire Terrier",
+      "content_dataset_index": 1521,
+      "style_dataset_index": 3632,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07385266572237015,
+        "edge_energy_ratio": 0.6760393288224735
+      },
+      "image_path": "data/cue_conflicts/pair3_dir0_accepted_21.png"
+    },
+    {
+      "pair_id": 3,
+      "direction": 0,
+      "content_class_idx": 30,
+      "content_class_name": "Scottish Terrier",
+      "style_class_idx": 36,
+      "style_class_name": "Yorkshire Terrier",
+      "content_dataset_index": 1512,
+      "style_dataset_index": 3678,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08140212297439575,
+        "edge_energy_ratio": 0.3582615183548747
+      },
+      "image_path": "data/cue_conflicts/pair3_dir0_accepted_22.png"
+    },
+    {
+      "pair_id": 3,
+      "direction": 0,
+      "content_class_idx": 30,
+      "content_class_name": "Scottish Terrier",
+      "style_class_idx": 36,
+      "style_class_name": "Yorkshire Terrier",
+      "content_dataset_index": 3345,
+      "style_dataset_index": 3643,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08452841639518738,
+        "edge_energy_ratio": 0.30957416387762016
+      },
+      "image_path": "data/cue_conflicts/pair3_dir0_accepted_23.png"
+    },
+    {
+      "pair_id": 3,
+      "direction": 0,
+      "content_class_idx": 30,
+      "content_class_name": "Scottish Terrier",
+      "style_class_idx": 36,
+      "style_class_name": "Yorkshire Terrier",
+      "content_dataset_index": 3368,
+      "style_dataset_index": 1840,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08160866796970367,
+        "edge_energy_ratio": 0.4503880469447063
+      },
+      "image_path": "data/cue_conflicts/pair3_dir0_accepted_24.png"
+    },
+    {
+      "pair_id": 3,
+      "direction": 0,
+      "content_class_idx": 30,
+      "content_class_name": "Scottish Terrier",
+      "style_class_idx": 36,
+      "style_class_name": "Yorkshire Terrier",
+      "content_dataset_index": 3341,
+      "style_dataset_index": 1826,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.0733327567577362,
+        "edge_energy_ratio": 0.16609329387557345
+      },
+      "image_path": "data/cue_conflicts/pair3_dir0_accepted_25.png"
+    },
+    {
+      "pair_id": 3,
+      "direction": 0,
+      "content_class_idx": 30,
+      "content_class_name": "Scottish Terrier",
+      "style_class_idx": 36,
+      "style_class_name": "Yorkshire Terrier",
+      "content_dataset_index": 3358,
+      "style_dataset_index": 3662,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.11192985624074936,
+        "edge_energy_ratio": 2.0789404292339735
+      },
+      "image_path": "data/cue_conflicts/pair3_dir0_accepted_26.png"
+    },
+    {
+      "pair_id": 3,
+      "direction": 1,
+      "content_class_idx": 36,
+      "content_class_name": "Yorkshire Terrier",
+      "style_class_idx": 30,
+      "style_class_name": "Scottish Terrier",
+      "content_dataset_index": 1830,
+      "style_dataset_index": 1511,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07107309997081757,
+        "edge_energy_ratio": 1.381234629745849
+      },
+      "image_path": "data/cue_conflicts/pair3_dir1_accepted_1.png"
+    },
+    {
+      "pair_id": 3,
+      "direction": 1,
+      "content_class_idx": 36,
+      "content_class_name": "Yorkshire Terrier",
+      "style_class_idx": 30,
+      "style_class_name": "Scottish Terrier",
+      "content_dataset_index": 1833,
+      "style_dataset_index": 3350,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.09495431929826736,
+        "edge_energy_ratio": 0.5088191740510954
+      },
+      "image_path": "data/cue_conflicts/pair3_dir1_accepted_2.png"
+    },
+    {
+      "pair_id": 3,
+      "direction": 1,
+      "content_class_idx": 36,
+      "content_class_name": "Yorkshire Terrier",
+      "style_class_idx": 30,
+      "style_class_name": "Scottish Terrier",
+      "content_dataset_index": 1823,
+      "style_dataset_index": 3380,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07716143876314163,
+        "edge_energy_ratio": 1.0163704826445032
+      },
+      "image_path": "data/cue_conflicts/pair3_dir1_accepted_3.png"
+    },
+    {
+      "pair_id": 3,
+      "direction": 1,
+      "content_class_idx": 36,
+      "content_class_name": "Yorkshire Terrier",
+      "style_class_idx": 30,
+      "style_class_name": "Scottish Terrier",
+      "content_dataset_index": 1831,
+      "style_dataset_index": 1520,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07181061059236526,
+        "edge_energy_ratio": 0.5030556026270381
+      },
+      "image_path": "data/cue_conflicts/pair3_dir1_accepted_4.png"
+    },
+    {
+      "pair_id": 3,
+      "direction": 1,
+      "content_class_idx": 36,
+      "content_class_name": "Yorkshire Terrier",
+      "style_class_idx": 30,
+      "style_class_name": "Scottish Terrier",
+      "content_dataset_index": 3672,
+      "style_dataset_index": 3352,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07284218072891235,
+        "edge_energy_ratio": 0.5194027266323211
+      },
+      "image_path": "data/cue_conflicts/pair3_dir1_accepted_5.png"
+    },
+    {
+      "pair_id": 3,
+      "direction": 1,
+      "content_class_idx": 36,
+      "content_class_name": "Yorkshire Terrier",
+      "style_class_idx": 30,
+      "style_class_name": "Scottish Terrier",
+      "content_dataset_index": 1806,
+      "style_dataset_index": 1519,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07340073585510254,
+        "edge_energy_ratio": 0.557817900272034
+      },
+      "image_path": "data/cue_conflicts/pair3_dir1_accepted_6.png"
+    },
+    {
+      "pair_id": 3,
+      "direction": 1,
+      "content_class_idx": 36,
+      "content_class_name": "Yorkshire Terrier",
+      "style_class_idx": 30,
+      "style_class_name": "Scottish Terrier",
+      "content_dataset_index": 1805,
+      "style_dataset_index": 3331,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.09410452097654343,
+        "edge_energy_ratio": 1.1979818299476281
+      },
+      "image_path": "data/cue_conflicts/pair3_dir1_accepted_7.png"
+    },
+    {
+      "pair_id": 3,
+      "direction": 1,
+      "content_class_idx": 36,
+      "content_class_name": "Yorkshire Terrier",
+      "style_class_idx": 30,
+      "style_class_name": "Scottish Terrier",
+      "content_dataset_index": 1830,
+      "style_dataset_index": 1535,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07880639284849167,
+        "edge_energy_ratio": 1.6878234636203573
+      },
+      "image_path": "data/cue_conflicts/pair3_dir1_accepted_8.png"
+    },
+    {
+      "pair_id": 3,
+      "direction": 1,
+      "content_class_idx": 36,
+      "content_class_name": "Yorkshire Terrier",
+      "style_class_idx": 30,
+      "style_class_name": "Scottish Terrier",
+      "content_dataset_index": 1843,
+      "style_dataset_index": 1498,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07955633103847504,
+        "edge_energy_ratio": 0.8121546967371978
+      },
+      "image_path": "data/cue_conflicts/pair3_dir1_accepted_9.png"
+    },
+    {
+      "pair_id": 3,
+      "direction": 1,
+      "content_class_idx": 36,
+      "content_class_name": "Yorkshire Terrier",
+      "style_class_idx": 30,
+      "style_class_name": "Scottish Terrier",
+      "content_dataset_index": 1828,
+      "style_dataset_index": 3354,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07609140127897263,
+        "edge_energy_ratio": 0.443398576587496
+      },
+      "image_path": "data/cue_conflicts/pair3_dir1_accepted_10.png"
+    },
+    {
+      "pair_id": 3,
+      "direction": 1,
+      "content_class_idx": 36,
+      "content_class_name": "Yorkshire Terrier",
+      "style_class_idx": 30,
+      "style_class_name": "Scottish Terrier",
+      "content_dataset_index": 1819,
+      "style_dataset_index": 1541,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.0793180838227272,
+        "edge_energy_ratio": 0.4661689350927928
+      },
+      "image_path": "data/cue_conflicts/pair3_dir1_accepted_11.png"
+    },
+    {
+      "pair_id": 3,
+      "direction": 1,
+      "content_class_idx": 36,
+      "content_class_name": "Yorkshire Terrier",
+      "style_class_idx": 30,
+      "style_class_name": "Scottish Terrier",
+      "content_dataset_index": 1844,
+      "style_dataset_index": 1508,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08146043866872787,
+        "edge_energy_ratio": 1.3837225049824264
+      },
+      "image_path": "data/cue_conflicts/pair3_dir1_accepted_12.png"
+    },
+    {
+      "pair_id": 3,
+      "direction": 1,
+      "content_class_idx": 36,
+      "content_class_name": "Yorkshire Terrier",
+      "style_class_idx": 30,
+      "style_class_name": "Scottish Terrier",
+      "content_dataset_index": 1838,
+      "style_dataset_index": 3335,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07623137533664703,
+        "edge_energy_ratio": 0.7722282051249286
+      },
+      "image_path": "data/cue_conflicts/pair3_dir1_accepted_13.png"
+    },
+    {
+      "pair_id": 3,
+      "direction": 1,
+      "content_class_idx": 36,
+      "content_class_name": "Yorkshire Terrier",
+      "style_class_idx": 30,
+      "style_class_name": "Scottish Terrier",
+      "content_dataset_index": 1842,
+      "style_dataset_index": 3366,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08193144202232361,
+        "edge_energy_ratio": 0.6442086589966972
+      },
+      "image_path": "data/cue_conflicts/pair3_dir1_accepted_14.png"
+    },
+    {
+      "pair_id": 3,
+      "direction": 1,
+      "content_class_idx": 36,
+      "content_class_name": "Yorkshire Terrier",
+      "style_class_idx": 30,
+      "style_class_name": "Scottish Terrier",
+      "content_dataset_index": 1796,
+      "style_dataset_index": 1534,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08024204522371292,
+        "edge_energy_ratio": 0.6337037702467788
+      },
+      "image_path": "data/cue_conflicts/pair3_dir1_accepted_15.png"
+    },
+    {
+      "pair_id": 3,
+      "direction": 1,
+      "content_class_idx": 36,
+      "content_class_name": "Yorkshire Terrier",
+      "style_class_idx": 30,
+      "style_class_name": "Scottish Terrier",
+      "content_dataset_index": 3654,
+      "style_dataset_index": 3353,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07920068502426147,
+        "edge_energy_ratio": 0.40369091686842706
+      },
+      "image_path": "data/cue_conflicts/pair3_dir1_accepted_16.png"
+    },
+    {
+      "pair_id": 3,
+      "direction": 1,
+      "content_class_idx": 36,
+      "content_class_name": "Yorkshire Terrier",
+      "style_class_idx": 30,
+      "style_class_name": "Scottish Terrier",
+      "content_dataset_index": 1804,
+      "style_dataset_index": 1531,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08225541561841965,
+        "edge_energy_ratio": 0.1678922527661786
+      },
+      "image_path": "data/cue_conflicts/pair3_dir1_accepted_17.png"
+    },
+    {
+      "pair_id": 3,
+      "direction": 1,
+      "content_class_idx": 36,
+      "content_class_name": "Yorkshire Terrier",
+      "style_class_idx": 30,
+      "style_class_name": "Scottish Terrier",
+      "content_dataset_index": 1832,
+      "style_dataset_index": 1544,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07245153933763504,
+        "edge_energy_ratio": 0.9280825411897139
+      },
+      "image_path": "data/cue_conflicts/pair3_dir1_accepted_18.png"
+    },
+    {
+      "pair_id": 3,
+      "direction": 1,
+      "content_class_idx": 36,
+      "content_class_name": "Yorkshire Terrier",
+      "style_class_idx": 30,
+      "style_class_name": "Scottish Terrier",
+      "content_dataset_index": 1843,
+      "style_dataset_index": 3361,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.06077667325735092,
+        "edge_energy_ratio": 0.6112980847165284
+      },
+      "image_path": "data/cue_conflicts/pair3_dir1_accepted_19.png"
+    },
+    {
+      "pair_id": 3,
+      "direction": 1,
+      "content_class_idx": 36,
+      "content_class_name": "Yorkshire Terrier",
+      "style_class_idx": 30,
+      "style_class_name": "Scottish Terrier",
+      "content_dataset_index": 3656,
+      "style_dataset_index": 1518,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.06878954917192459,
+        "edge_energy_ratio": 0.2626591948008811
+      },
+      "image_path": "data/cue_conflicts/pair3_dir1_accepted_20.png"
+    },
+    {
+      "pair_id": 3,
+      "direction": 1,
+      "content_class_idx": 36,
+      "content_class_name": "Yorkshire Terrier",
+      "style_class_idx": 30,
+      "style_class_name": "Scottish Terrier",
+      "content_dataset_index": 3665,
+      "style_dataset_index": 1497,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07847969979047775,
+        "edge_energy_ratio": 0.36856657574608004
+      },
+      "image_path": "data/cue_conflicts/pair3_dir1_accepted_21.png"
+    },
+    {
+      "pair_id": 3,
+      "direction": 1,
+      "content_class_idx": 36,
+      "content_class_name": "Yorkshire Terrier",
+      "style_class_idx": 30,
+      "style_class_name": "Scottish Terrier",
+      "content_dataset_index": 3669,
+      "style_dataset_index": 1524,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.09809941053390503,
+        "edge_energy_ratio": 0.5623528311708751
+      },
+      "image_path": "data/cue_conflicts/pair3_dir1_accepted_22.png"
+    },
+    {
+      "pair_id": 3,
+      "direction": 1,
+      "content_class_idx": 36,
+      "content_class_name": "Yorkshire Terrier",
+      "style_class_idx": 30,
+      "style_class_name": "Scottish Terrier",
+      "content_dataset_index": 1801,
+      "style_dataset_index": 3359,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.05193255469202995,
+        "edge_energy_ratio": 0.3321825100262276
+      },
+      "image_path": "data/cue_conflicts/pair3_dir1_accepted_23.png"
+    },
+    {
+      "pair_id": 3,
+      "direction": 1,
+      "content_class_idx": 36,
+      "content_class_name": "Yorkshire Terrier",
+      "style_class_idx": 30,
+      "style_class_name": "Scottish Terrier",
+      "content_dataset_index": 3642,
+      "style_dataset_index": 1509,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08273043483495712,
+        "edge_energy_ratio": 0.2336413603911221
+      },
+      "image_path": "data/cue_conflicts/pair3_dir1_accepted_24.png"
+    },
+    {
+      "pair_id": 4,
+      "direction": 0,
+      "content_class_idx": 7,
+      "content_class_name": "Bombay",
+      "style_class_idx": 21,
+      "style_class_name": "Miniature Pinscher",
+      "content_dataset_index": 390,
+      "style_dataset_index": 1075,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.09074404835700989,
+        "edge_energy_ratio": 2.097850133592657
+      },
+      "image_path": "data/cue_conflicts/pair4_dir0_accepted_1.png"
+    },
+    {
+      "pair_id": 4,
+      "direction": 0,
+      "content_class_idx": 7,
+      "content_class_name": "Bombay",
+      "style_class_idx": 21,
+      "style_class_name": "Miniature Pinscher",
+      "content_dataset_index": 2228,
+      "style_dataset_index": 2910,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.06827010214328766,
+        "edge_energy_ratio": 0.519961399591211
+      },
+      "image_path": "data/cue_conflicts/pair4_dir0_accepted_2.png"
+    },
+    {
+      "pair_id": 4,
+      "direction": 0,
+      "content_class_idx": 7,
+      "content_class_name": "Bombay",
+      "style_class_idx": 21,
+      "style_class_name": "Miniature Pinscher",
+      "content_dataset_index": 393,
+      "style_dataset_index": 1051,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08791384845972061,
+        "edge_energy_ratio": 0.44396888686115327
+      },
+      "image_path": "data/cue_conflicts/pair4_dir0_accepted_3.png"
+    },
+    {
+      "pair_id": 4,
+      "direction": 0,
+      "content_class_idx": 7,
+      "content_class_name": "Bombay",
+      "style_class_idx": 21,
+      "style_class_name": "Miniature Pinscher",
+      "content_dataset_index": 358,
+      "style_dataset_index": 2916,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08215611428022385,
+        "edge_energy_ratio": 2.5887289553564776
+      },
+      "image_path": "data/cue_conflicts/pair4_dir0_accepted_4.png"
+    },
+    {
+      "pair_id": 4,
+      "direction": 0,
+      "content_class_idx": 7,
+      "content_class_name": "Bombay",
+      "style_class_idx": 21,
+      "style_class_name": "Miniature Pinscher",
+      "content_dataset_index": 2228,
+      "style_dataset_index": 1086,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.06912117451429367,
+        "edge_energy_ratio": 0.5516953005040965
+      },
+      "image_path": "data/cue_conflicts/pair4_dir0_accepted_5.png"
+    },
+    {
+      "pair_id": 4,
+      "direction": 0,
+      "content_class_idx": 7,
+      "content_class_name": "Bombay",
+      "style_class_idx": 21,
+      "style_class_name": "Miniature Pinscher",
+      "content_dataset_index": 389,
+      "style_dataset_index": 2912,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08386923372745514,
+        "edge_energy_ratio": 0.8523460577762404
+      },
+      "image_path": "data/cue_conflicts/pair4_dir0_accepted_6.png"
+    },
+    {
+      "pair_id": 4,
+      "direction": 0,
+      "content_class_idx": 7,
+      "content_class_name": "Bombay",
+      "style_class_idx": 21,
+      "style_class_name": "Miniature Pinscher",
+      "content_dataset_index": 2209,
+      "style_dataset_index": 1089,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.09420213103294373,
+        "edge_energy_ratio": 0.38351468493696134
+      },
+      "image_path": "data/cue_conflicts/pair4_dir0_accepted_7.png"
+    },
+    {
+      "pair_id": 4,
+      "direction": 0,
+      "content_class_idx": 7,
+      "content_class_name": "Bombay",
+      "style_class_idx": 21,
+      "style_class_name": "Miniature Pinscher",
+      "content_dataset_index": 360,
+      "style_dataset_index": 2902,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07887695729732513,
+        "edge_energy_ratio": 0.3381867291989565
+      },
+      "image_path": "data/cue_conflicts/pair4_dir0_accepted_8.png"
+    },
+    {
+      "pair_id": 4,
+      "direction": 0,
+      "content_class_idx": 7,
+      "content_class_name": "Bombay",
+      "style_class_idx": 21,
+      "style_class_name": "Miniature Pinscher",
+      "content_dataset_index": 351,
+      "style_dataset_index": 2894,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07353820651769638,
+        "edge_energy_ratio": 0.29067932618291886
+      },
+      "image_path": "data/cue_conflicts/pair4_dir0_accepted_9.png"
+    },
+    {
+      "pair_id": 4,
+      "direction": 0,
+      "content_class_idx": 7,
+      "content_class_name": "Bombay",
+      "style_class_idx": 21,
+      "style_class_name": "Miniature Pinscher",
+      "content_dataset_index": 365,
+      "style_dataset_index": 2930,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07433124631643295,
+        "edge_energy_ratio": 1.8415154910141813
+      },
+      "image_path": "data/cue_conflicts/pair4_dir0_accepted_10.png"
+    },
+    {
+      "pair_id": 4,
+      "direction": 0,
+      "content_class_idx": 7,
+      "content_class_name": "Bombay",
+      "style_class_idx": 21,
+      "style_class_name": "Miniature Pinscher",
+      "content_dataset_index": 2208,
+      "style_dataset_index": 1088,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07525449991226196,
+        "edge_energy_ratio": 1.0521899255912504
+      },
+      "image_path": "data/cue_conflicts/pair4_dir0_accepted_11.png"
+    },
+    {
+      "pair_id": 4,
+      "direction": 0,
+      "content_class_idx": 7,
+      "content_class_name": "Bombay",
+      "style_class_idx": 21,
+      "style_class_name": "Miniature Pinscher",
+      "content_dataset_index": 397,
+      "style_dataset_index": 1078,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.10005157440900803,
+        "edge_energy_ratio": 0.7185875099518402
+      },
+      "image_path": "data/cue_conflicts/pair4_dir0_accepted_12.png"
+    },
+    {
+      "pair_id": 4,
+      "direction": 0,
+      "content_class_idx": 7,
+      "content_class_name": "Bombay",
+      "style_class_idx": 21,
+      "style_class_name": "Miniature Pinscher",
+      "content_dataset_index": 2217,
+      "style_dataset_index": 2893,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07873369008302689,
+        "edge_energy_ratio": 0.3258488193064827
+      },
+      "image_path": "data/cue_conflicts/pair4_dir0_accepted_13.png"
+    },
+    {
+      "pair_id": 4,
+      "direction": 0,
+      "content_class_idx": 7,
+      "content_class_name": "Bombay",
+      "style_class_idx": 21,
+      "style_class_name": "Miniature Pinscher",
+      "content_dataset_index": 383,
+      "style_dataset_index": 2905,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07586785405874252,
+        "edge_energy_ratio": 0.4122473985154813
+      },
+      "image_path": "data/cue_conflicts/pair4_dir0_accepted_14.png"
+    },
+    {
+      "pair_id": 4,
+      "direction": 0,
+      "content_class_idx": 7,
+      "content_class_name": "Bombay",
+      "style_class_idx": 21,
+      "style_class_name": "Miniature Pinscher",
+      "content_dataset_index": 362,
+      "style_dataset_index": 2909,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08322378993034363,
+        "edge_energy_ratio": 0.6836238746199678
+      },
+      "image_path": "data/cue_conflicts/pair4_dir0_accepted_15.png"
+    },
+    {
+      "pair_id": 4,
+      "direction": 0,
+      "content_class_idx": 7,
+      "content_class_name": "Bombay",
+      "style_class_idx": 21,
+      "style_class_name": "Miniature Pinscher",
+      "content_dataset_index": 2220,
+      "style_dataset_index": 1061,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07715453952550888,
+        "edge_energy_ratio": 0.5935108273372913
+      },
+      "image_path": "data/cue_conflicts/pair4_dir0_accepted_16.png"
+    },
+    {
+      "pair_id": 4,
+      "direction": 0,
+      "content_class_idx": 7,
+      "content_class_name": "Bombay",
+      "style_class_idx": 21,
+      "style_class_name": "Miniature Pinscher",
+      "content_dataset_index": 372,
+      "style_dataset_index": 1095,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07610630244016647,
+        "edge_energy_ratio": 0.6864210190328794
+      },
+      "image_path": "data/cue_conflicts/pair4_dir0_accepted_17.png"
+    },
+    {
+      "pair_id": 4,
+      "direction": 0,
+      "content_class_idx": 7,
+      "content_class_name": "Bombay",
+      "style_class_idx": 21,
+      "style_class_name": "Miniature Pinscher",
+      "content_dataset_index": 387,
+      "style_dataset_index": 1059,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08188962936401367,
+        "edge_energy_ratio": 0.6799212750187886
+      },
+      "image_path": "data/cue_conflicts/pair4_dir0_accepted_18.png"
+    },
+    {
+      "pair_id": 4,
+      "direction": 0,
+      "content_class_idx": 7,
+      "content_class_name": "Bombay",
+      "style_class_idx": 21,
+      "style_class_name": "Miniature Pinscher",
+      "content_dataset_index": 367,
+      "style_dataset_index": 2886,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.0842113122344017,
+        "edge_energy_ratio": 0.7136747326206482
+      },
+      "image_path": "data/cue_conflicts/pair4_dir0_accepted_19.png"
+    },
+    {
+      "pair_id": 4,
+      "direction": 0,
+      "content_class_idx": 7,
+      "content_class_name": "Bombay",
+      "style_class_idx": 21,
+      "style_class_name": "Miniature Pinscher",
+      "content_dataset_index": 2208,
+      "style_dataset_index": 1092,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07131621986627579,
+        "edge_energy_ratio": 1.0139772544771386
+      },
+      "image_path": "data/cue_conflicts/pair4_dir0_accepted_20.png"
+    },
+    {
+      "pair_id": 4,
+      "direction": 0,
+      "content_class_idx": 7,
+      "content_class_name": "Bombay",
+      "style_class_idx": 21,
+      "style_class_name": "Miniature Pinscher",
+      "content_dataset_index": 2202,
+      "style_dataset_index": 1047,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.09765735268592834,
+        "edge_energy_ratio": 0.6776143711961777
+      },
+      "image_path": "data/cue_conflicts/pair4_dir0_accepted_21.png"
+    },
+    {
+      "pair_id": 4,
+      "direction": 0,
+      "content_class_idx": 7,
+      "content_class_name": "Bombay",
+      "style_class_idx": 21,
+      "style_class_name": "Miniature Pinscher",
+      "content_dataset_index": 2214,
+      "style_dataset_index": 1055,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.090094193816185,
+        "edge_energy_ratio": 1.6855862184315407
+      },
+      "image_path": "data/cue_conflicts/pair4_dir0_accepted_22.png"
+    },
+    {
+      "pair_id": 4,
+      "direction": 0,
+      "content_class_idx": 7,
+      "content_class_name": "Bombay",
+      "style_class_idx": 21,
+      "style_class_name": "Miniature Pinscher",
+      "content_dataset_index": 381,
+      "style_dataset_index": 1083,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.09403342753648758,
+        "edge_energy_ratio": 0.23744129891632168
+      },
+      "image_path": "data/cue_conflicts/pair4_dir0_accepted_23.png"
+    },
+    {
+      "pair_id": 4,
+      "direction": 0,
+      "content_class_idx": 7,
+      "content_class_name": "Bombay",
+      "style_class_idx": 21,
+      "style_class_name": "Miniature Pinscher",
+      "content_dataset_index": 2237,
+      "style_dataset_index": 2930,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07509367913007736,
+        "edge_energy_ratio": 2.7440934826206775
+      },
+      "image_path": "data/cue_conflicts/pair4_dir0_accepted_24.png"
+    },
+    {
+      "pair_id": 4,
+      "direction": 1,
+      "content_class_idx": 21,
+      "content_class_name": "Miniature Pinscher",
+      "style_class_idx": 7,
+      "style_class_name": "Bombay",
+      "content_dataset_index": 1047,
+      "style_dataset_index": 2212,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.06250691413879395,
+        "edge_energy_ratio": 0.27053447062316843
+      },
+      "image_path": "data/cue_conflicts/pair4_dir1_accepted_1.png"
+    },
+    {
+      "pair_id": 4,
+      "direction": 1,
+      "content_class_idx": 21,
+      "content_class_name": "Miniature Pinscher",
+      "style_class_idx": 7,
+      "style_class_name": "Bombay",
+      "content_dataset_index": 1087,
+      "style_dataset_index": 2229,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.08029396831989288,
+        "edge_energy_ratio": 0.30728675537662437
+      },
+      "image_path": "data/cue_conflicts/pair4_dir1_accepted_2.png"
+    },
+    {
+      "pair_id": 4,
+      "direction": 1,
+      "content_class_idx": 21,
+      "content_class_name": "Miniature Pinscher",
+      "style_class_idx": 7,
+      "style_class_name": "Bombay",
+      "content_dataset_index": 2906,
+      "style_dataset_index": 395,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.0689399391412735,
+        "edge_energy_ratio": 0.791560521964252
+      },
+      "image_path": "data/cue_conflicts/pair4_dir1_accepted_3.png"
+    },
+    {
+      "pair_id": 4,
+      "direction": 1,
+      "content_class_idx": 21,
+      "content_class_name": "Miniature Pinscher",
+      "style_class_idx": 7,
+      "style_class_name": "Bombay",
+      "content_dataset_index": 1086,
+      "style_dataset_index": 364,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07703617960214615,
+        "edge_energy_ratio": 0.5476631588114389
+      },
+      "image_path": "data/cue_conflicts/pair4_dir1_accepted_4.png"
+    },
+    {
+      "pair_id": 4,
+      "direction": 1,
+      "content_class_idx": 21,
+      "content_class_name": "Miniature Pinscher",
+      "style_class_idx": 7,
+      "style_class_name": "Bombay",
+      "content_dataset_index": 1057,
+      "style_dataset_index": 2226,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07300429046154022,
+        "edge_energy_ratio": 0.552648394703741
+      },
+      "image_path": "data/cue_conflicts/pair4_dir1_accepted_5.png"
+    },
+    {
+      "pair_id": 4,
+      "direction": 1,
+      "content_class_idx": 21,
+      "content_class_name": "Miniature Pinscher",
+      "style_class_idx": 7,
+      "style_class_name": "Bombay",
+      "content_dataset_index": 1082,
+      "style_dataset_index": 365,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.060232486575841904,
+        "edge_energy_ratio": 0.5653773503052482
+      },
+      "image_path": "data/cue_conflicts/pair4_dir1_accepted_6.png"
+    },
+    {
+      "pair_id": 4,
+      "direction": 1,
+      "content_class_idx": 21,
+      "content_class_name": "Miniature Pinscher",
+      "style_class_idx": 7,
+      "style_class_name": "Bombay",
+      "content_dataset_index": 1090,
+      "style_dataset_index": 374,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07189257442951202,
+        "edge_energy_ratio": 1.3560377462207347
+      },
+      "image_path": "data/cue_conflicts/pair4_dir1_accepted_7.png"
+    },
+    {
+      "pair_id": 4,
+      "direction": 1,
+      "content_class_idx": 21,
+      "content_class_name": "Miniature Pinscher",
+      "style_class_idx": 7,
+      "style_class_name": "Bombay",
+      "content_dataset_index": 1046,
+      "style_dataset_index": 362,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.06958210468292236,
+        "edge_energy_ratio": 0.23477158045407626
+      },
+      "image_path": "data/cue_conflicts/pair4_dir1_accepted_8.png"
+    },
+    {
+      "pair_id": 4,
+      "direction": 1,
+      "content_class_idx": 21,
+      "content_class_name": "Miniature Pinscher",
+      "style_class_idx": 7,
+      "style_class_name": "Bombay",
+      "content_dataset_index": 2905,
+      "style_dataset_index": 2242,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07938648015260696,
+        "edge_energy_ratio": 0.6554147934523806
+      },
+      "image_path": "data/cue_conflicts/pair4_dir1_accepted_9.png"
+    },
+    {
+      "pair_id": 4,
+      "direction": 1,
+      "content_class_idx": 21,
+      "content_class_name": "Miniature Pinscher",
+      "style_class_idx": 7,
+      "style_class_name": "Bombay",
+      "content_dataset_index": 2890,
+      "style_dataset_index": 362,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.0668492242693901,
+        "edge_energy_ratio": 1.3050422574720162
+      },
+      "image_path": "data/cue_conflicts/pair4_dir1_accepted_10.png"
+    },
+    {
+      "pair_id": 4,
+      "direction": 1,
+      "content_class_idx": 21,
+      "content_class_name": "Miniature Pinscher",
+      "style_class_idx": 7,
+      "style_class_name": "Bombay",
+      "content_dataset_index": 2917,
+      "style_dataset_index": 368,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07562839984893799,
+        "edge_energy_ratio": 0.9362506665729882
+      },
+      "image_path": "data/cue_conflicts/pair4_dir1_accepted_11.png"
+    },
+    {
+      "pair_id": 4,
+      "direction": 1,
+      "content_class_idx": 21,
+      "content_class_name": "Miniature Pinscher",
+      "style_class_idx": 7,
+      "style_class_name": "Bombay",
+      "content_dataset_index": 1064,
+      "style_dataset_index": 2201,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07377967238426208,
+        "edge_energy_ratio": 1.451478164619533
+      },
+      "image_path": "data/cue_conflicts/pair4_dir1_accepted_12.png"
+    },
+    {
+      "pair_id": 4,
+      "direction": 1,
+      "content_class_idx": 21,
+      "content_class_name": "Miniature Pinscher",
+      "style_class_idx": 7,
+      "style_class_name": "Bombay",
+      "content_dataset_index": 2920,
+      "style_dataset_index": 2216,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.06616896390914917,
+        "edge_energy_ratio": 0.5180045380294706
+      },
+      "image_path": "data/cue_conflicts/pair4_dir1_accepted_13.png"
+    },
+    {
+      "pair_id": 4,
+      "direction": 1,
+      "content_class_idx": 21,
+      "content_class_name": "Miniature Pinscher",
+      "style_class_idx": 7,
+      "style_class_name": "Bombay",
+      "content_dataset_index": 2905,
+      "style_dataset_index": 368,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07353374361991882,
+        "edge_energy_ratio": 0.5774880212507889
+      },
+      "image_path": "data/cue_conflicts/pair4_dir1_accepted_14.png"
+    },
+    {
+      "pair_id": 4,
+      "direction": 1,
+      "content_class_idx": 21,
+      "content_class_name": "Miniature Pinscher",
+      "style_class_idx": 7,
+      "style_class_name": "Bombay",
+      "content_dataset_index": 2927,
+      "style_dataset_index": 2206,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07020030170679092,
+        "edge_energy_ratio": 0.4995425544414611
+      },
+      "image_path": "data/cue_conflicts/pair4_dir1_accepted_15.png"
+    },
+    {
+      "pair_id": 4,
+      "direction": 1,
+      "content_class_idx": 21,
+      "content_class_name": "Miniature Pinscher",
+      "style_class_idx": 7,
+      "style_class_name": "Bombay",
+      "content_dataset_index": 2925,
+      "style_dataset_index": 2232,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07594277709722519,
+        "edge_energy_ratio": 1.3196254376098964
+      },
+      "image_path": "data/cue_conflicts/pair4_dir1_accepted_16.png"
+    },
+    {
+      "pair_id": 4,
+      "direction": 1,
+      "content_class_idx": 21,
+      "content_class_name": "Miniature Pinscher",
+      "style_class_idx": 7,
+      "style_class_name": "Bombay",
+      "content_dataset_index": 1085,
+      "style_dataset_index": 371,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.067390576004982,
+        "edge_energy_ratio": 0.3585043078096527
+      },
+      "image_path": "data/cue_conflicts/pair4_dir1_accepted_17.png"
+    },
+    {
+      "pair_id": 4,
+      "direction": 1,
+      "content_class_idx": 21,
+      "content_class_name": "Miniature Pinscher",
+      "style_class_idx": 7,
+      "style_class_name": "Bombay",
+      "content_dataset_index": 1083,
+      "style_dataset_index": 2208,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.05357620120048523,
+        "edge_energy_ratio": 0.3939424076341789
+      },
+      "image_path": "data/cue_conflicts/pair4_dir1_accepted_18.png"
+    },
+    {
+      "pair_id": 4,
+      "direction": 1,
+      "content_class_idx": 21,
+      "content_class_name": "Miniature Pinscher",
+      "style_class_idx": 7,
+      "style_class_name": "Bombay",
+      "content_dataset_index": 2888,
+      "style_dataset_index": 2234,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.06442992389202118,
+        "edge_energy_ratio": 0.8250915909726794
+      },
+      "image_path": "data/cue_conflicts/pair4_dir1_accepted_19.png"
+    },
+    {
+      "pair_id": 4,
+      "direction": 1,
+      "content_class_idx": 21,
+      "content_class_name": "Miniature Pinscher",
+      "style_class_idx": 7,
+      "style_class_name": "Bombay",
+      "content_dataset_index": 1063,
+      "style_dataset_index": 383,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07711842656135559,
+        "edge_energy_ratio": 0.435902311979998
+      },
+      "image_path": "data/cue_conflicts/pair4_dir1_accepted_20.png"
+    },
+    {
+      "pair_id": 4,
+      "direction": 1,
+      "content_class_idx": 21,
+      "content_class_name": "Miniature Pinscher",
+      "style_class_idx": 7,
+      "style_class_name": "Bombay",
+      "content_dataset_index": 2889,
+      "style_dataset_index": 2223,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07596826553344727,
+        "edge_energy_ratio": 0.37078122991918205
+      },
+      "image_path": "data/cue_conflicts/pair4_dir1_accepted_21.png"
+    },
+    {
+      "pair_id": 4,
+      "direction": 1,
+      "content_class_idx": 21,
+      "content_class_name": "Miniature Pinscher",
+      "style_class_idx": 7,
+      "style_class_name": "Bombay",
+      "content_dataset_index": 2904,
+      "style_dataset_index": 397,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.061630766838788986,
+        "edge_energy_ratio": 0.8901281708764517
+      },
+      "image_path": "data/cue_conflicts/pair4_dir1_accepted_22.png"
+    },
+    {
+      "pair_id": 4,
+      "direction": 1,
+      "content_class_idx": 21,
+      "content_class_name": "Miniature Pinscher",
+      "style_class_idx": 7,
+      "style_class_name": "Bombay",
+      "content_dataset_index": 2891,
+      "style_dataset_index": 357,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.07253417372703552,
+        "edge_energy_ratio": 0.5344946119301377
+      },
+      "image_path": "data/cue_conflicts/pair4_dir1_accepted_23.png"
+    },
+    {
+      "pair_id": 4,
+      "direction": 1,
+      "content_class_idx": 21,
+      "content_class_name": "Miniature Pinscher",
+      "style_class_idx": 7,
+      "style_class_name": "Bombay",
+      "content_dataset_index": 1080,
+      "style_dataset_index": 390,
+      "accepted": true,
+      "diagnostics": {
+        "pixel_std": 0.06014244630932808,
+        "edge_energy_ratio": 0.5335322215288638
+      },
+      "image_path": "data/cue_conflicts/pair4_dir1_accepted_24.png"
+    }
+  ]
+}

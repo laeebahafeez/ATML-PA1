@@ -1,0 +1,4 @@
+ERM has no training curve here: per the assignment, Task 3's ERM baseline
+reuses Task 2's already-trained Source-only checkpoint unchanged (see
+train_history_erm.json) rather than retraining, so there is no per-epoch
+loss to plot for this task.

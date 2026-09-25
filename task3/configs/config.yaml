@@ -1,0 +1,91 @@
+# Task 3 - Domain Generalization (PACS)
+# Single source of truth for every seed, hyperparameter, and design choice.
+#
+# Design choice: like Task 2, this uses one config.yaml with per-method
+# sections rather than the suggested separate erm.yaml/dan_dg.yaml/sam.yaml,
+# so every setting for every method sits next to the ones it's compared
+# against (documented in task3/README.md).
+
+seed: 6304
+
+# Where Task 2's outputs live, relative to this file's directory (task3/).
+# Task 3 MUST reuse these unchanged, per the assignment: the same source
+# train/val split, and the Source-only ERM checkpoint loaded (not retrained).
+task2_paths:
+  source_only_checkpoint: ../task2/checkpoints/source_only.pt
+  split_path: ../task2/results/pacs_sketch_seed6304_split.json
+
+dataset:
+  name: pacs
+  root: ./data/raw   # overwritten by the Kaggle notebook's auto-discovery cell
+  image_size: 224
+  resize_size: 256
+  num_classes: 7
+  source_domains: [photo, art_painting, cartoon]
+  # Sketch is NEVER loaded by train.py -- only evaluate_sketch.py may load it,
+  # and only after every Task 3 config/checkpoint decision has been frozen.
+  target_domain: sketch
+
+split:
+  val_fraction: 0.2
+  seed: 6304
+
+backbone:
+  name: resnet18
+  weights: IMAGENET1K_V1
+  feature_dim: 512
+  freeze_bn_running_stats: true
+
+training:
+  optimizer: adamw
+  lr: 1.0e-4
+  weight_decay: 1.0e-4
+  max_epochs: 30
+  early_stop_patience: 5
+  seed: 6304
+  # domain-balanced source batch: 8 examples from each of the 3 source
+  # domains, 24 total -- no target batch (Task 3 never sees Sketch)
+  source_per_domain_batch: 8
+  checkpoint_selection_metric: mean_source_macro_f1
+
+augmentation:
+  train_resize: 256
+  train_crop: 224
+  train_hflip: true
+  eval_resize: 256
+  eval_crop: 224
+
+mmd_dg:
+  # identical kernel construction to Task 2's shared/mmd.py, applied to
+  # every unordered pair of the three SOURCE domains instead of source-vs-target
+  kernel: rbf_mixture
+  bandwidth_multipliers: [0.5, 1.0, 2.0]
+  lambda_dg_main: 1.0
+
+sam:
+  rho_main: 0.05
+
+source_domain_separability:
+  # 3-way (Photo / Art Painting / Cartoon) multinomial logistic regression,
+  # chance level = 33.3%, distinct from Task 2's binary source-vs-target probe
+  seed: 6304
+  test_fraction: 0.3
+  logistic_regression_C: 1.0
+
+sharpness:
+  # fixed diagnostic batch: 32 examples from EACH source domain (96 total),
+  # sampled once with this seed and reused for every model
+  seed: 6304
+  n_per_domain: 32
+  rho: 0.05
+
+controlled_study:
+  # Design choice (documented in task3/README.md): sweep DAN-DG's lambda_dg.
+  # method: dan_dg | sam -- switching this also switches which sweep
+  # evaluate_sketch.py looks for checkpoints of.
+  method: dan_dg
+  lambda_dg_values: [0.1, 1.0, 10.0]
+  sam_rho_values: [0.01, 0.05, 0.1]
+
+evaluation:
+  save_path: ./results

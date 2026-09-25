@@ -1,0 +1,24 @@
+{
+  "note": "ERM is Task 2's Source-only checkpoint, loaded unchanged (not retrained), per the assignment's explicit instruction.",
+  "source_checkpoint": "../task2/checkpoints/source_only.pt",
+  "val_result": {
+    "per_domain": {
+      "photo": {
+        "accuracy": 0.975975975975976,
+        "macro_f1": 0.9717783167728952
+      },
+      "art_painting": {
+        "accuracy": 0.9219512195121952,
+        "macro_f1": 0.9203337807708234
+      },
+      "cartoon": {
+        "accuracy": 0.9253731343283582,
+        "macro_f1": 0.9304317888742085
+      }
+    },
+    "mean_accuracy": 0.9411001099388431,
+    "mean_macro_f1": 0.940847962139309,
+    "worst_accuracy": 0.9219512195121952,
+    "worst_macro_f1": 0.9203337807708234
+  }
+}

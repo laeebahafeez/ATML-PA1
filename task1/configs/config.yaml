@@ -1,0 +1,97 @@
+# Task 1 - Inductive Biases and Feature Representations
+# Single source of truth for every seed, hyperparameter, and design choice.
+# Every script reads this file; nothing should be hardcoded elsewhere.
+
+seed: 6304
+
+dataset:
+  name: oxford_iiit_pets
+  root: ./data/raw
+  image_size: 224
+  num_classes: 37
+
+split:
+  # stratified 80/20 split of the official "trainval" partition
+  val_fraction: 0.2
+  seed: 6304
+
+test_subset:
+  # class-balanced subset of the official "test" partition
+  size: 500
+  seed: 6304
+  save_path: ./results/test_subset_ids.json
+
+backbones:
+  resnet50:
+    weights: IMAGENET1K_V2
+    feature: global_average_pooled_2048d
+  vit_b16:
+    weights: IMAGENET1K_V1
+    feature: final_cls_token_768d
+  clip_vitb32:
+    pretrained: openai
+    feature: normalized_image_embedding_512d
+    zero_shot_prompt_template: "a photo of a {class}."
+
+linear_probe:
+  max_epochs: 50
+  optimizer: adamw
+  lr: 1.0e-3
+  weight_decay: 1.0e-4
+  early_stop_patience: 5
+  seed: 6304
+  batch_size: 128
+
+interventions:
+  color:
+    # required: grayscale (removes color, preserves geometry)
+    grayscale: true
+    # chosen additional transformation (tests sensitivity to *changing*
+    # color rather than removing it): fixed hue rotation in HSV space.
+    additional: hue_rotation
+    hue_rotation_degrees: 90
+
+  cue_conflict:
+    method: adain
+    style_strength_alpha: 1.0          # AdaIN interpolation strength (1.0 = full style)
+    num_class_pairs: 5
+    seed: 6304
+    min_valid_conflicts: 200
+    images_per_pair_per_direction: 24   # 5 pairs x 2 directions x 24 ~= 240 attempted
+    rejection_rule:
+      # A stylization is REJECTED (before any model ever sees it) if either:
+      #  1. it is visually degenerate (near-constant color -> AdaIN collapsed), or
+      #  2. it lost virtually all edge/shape structure relative to the content image.
+      # Thresholds are fixed in advance and never adjusted using model predictions.
+      min_pixel_std: 0.03              # reject near-uniform / blank output
+      min_edge_energy_ratio: 0.15      # reject if output edge energy < 15% of content's
+      max_edge_energy_ratio: 6.0       # reject if output edge energy > 600% of content's (noise)
+
+  translation:
+    pixels: [0, 8, 16, 32]
+    directions: [up, down, left, right]
+    padding_mode: reflect
+
+  patch_shuffle:
+    grid: 4
+    seed: 6304
+
+representation:
+  method: tsne          # "tsne" or "umap"
+  seed: 6304
+  n_images_per_condition: 200   # fixed subset used for all projections
+  tsne:
+    perplexity: 30
+    max_iter: 1000
+  umap:
+    n_neighbors: 15
+    min_dist: 0.1
+
+adain:
+  # Encoder is torchvision's pretrained VGG19 (downloaded automatically),
+  # truncated to relu4_1. The decoder mirrors the encoder and must be
+  # loaded from public pretrained weights (see task1/README.md) since it
+  # is not distributed with torchvision.
+  vgg_encoder: torchvision_vgg19_imagenet   # no local file needed
+  decoder_weights: ./checkpoints/decoder.pth
+  attribution: "Huang & Belongie (2017); weights via naoto0804/pytorch-AdaIN"
